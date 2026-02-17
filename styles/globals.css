@@ -1,0 +1,82 @@
+/* 1. 引入 Tailwind 的核心指令 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 2. 基础层样式 (Base Layer) */
+/* 这里设置全局的背景色、字体和抗锯齿，确保网站看起来清晰、专业 */
+@layer base {
+  html {
+    scroll-behavior: smooth; /* 点击锚点链接时平滑滚动 */
+  }
+
+  body {
+    @apply bg-gray-50 text-gray-800 antialiased;
+    /* 优先使用系统字体，兼顾不同操作系统，看起来最原生、最快 */
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+
+  /* 统一标题样式，五金站需要一种"厚重、可信"的感觉 */
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-gray-900 font-bold tracking-tight;
+  }
+  
+  h1 { @apply text-3xl md:text-4xl; }
+  h2 { @apply text-2xl md:text-3xl; }
+  h3 { @apply text-xl md:text-2xl; }
+}
+
+/* 3. 组件层样式 (Component Layer) */
+/* 提取常用的类组合，避免 HTML 中 class 太多太乱 */
+@layer components {
+  /* 自定义容器：固定最大宽度，两边留白，手机端适配 */
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* 通用按钮样式：统一交互反馈 */
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors duration-200;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-6 py-3 border border-gray-300 shadow-sm text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors duration-200;
+  }
+}
+
+/* 4. WhatsApp 悬浮按钮的特效 */
+/* 让那个绿色的悬浮球有一个"呼吸"或"波纹"效果，吸引客户点击 */
+@keyframes pulse-green {
+  0% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+  }
+}
+
+.whatsapp-pulse {
+  animation: pulse-green 2s infinite;
+}
+
+/* 5. 产品详情页的内容排版优化 */
+/* 如果你的产品描述里有简单的 HTML 列表或段落，这里确保它们有正确的间距 */
+.product-description p {
+  @apply mb-4 leading-relaxed;
+}
+
+.product-description ul {
+  @apply list-disc list-inside mb-4 space-y-1;
+}
+
+/* 表格边框优化，用于规格参数表 */
+.specs-table th, 
+.specs-table td {
+  @apply border-b border-gray-200 py-3 px-2;
+}
+.specs-table th {
+  @apply bg-gray-50 font-semibold text-gray-700 w-1/3;
+}
