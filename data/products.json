@@ -1,32 +1,24 @@
 [
   {
-    "id": "hss-twist-drill-bit-001",
+    "id": "hss-twist-drill-001",
     "name": "HSS Twist Drill Bit DIN338",
     "slug": "hss-twist-drill-bit-din338",
     "category": "Twist Drills",
     "description": "High-quality HSS twist drill bit suitable for drilling steel, wood, and plastic.",
     "specs": {
       "Material": "HSS 4241/6542/M35",
-      "Standard": "DIN338",
-      "Point Angle": "118° / 135° Split Point",
-      "Coating": "Titanium / Black Oxide"
+      "Standard": "DIN338"
     },
-    "images": ["/images/drill-01.jpg"],
-    "seo_title": "Wholesale HSS Twist Drill Bits DIN338 | Manufacturer",
-    "seo_desc": "Buy HSS Twist Drill Bits directly from the factory. High speed steel, fully ground, DIN338 standard."
-  },
-  {
-    "id": "masonry-drill-bit-002",
-    "name": "Masonry Drill Bit Set",
-    "slug": "masonry-drill-bit-set",
-    "category": "Masonry Drills",
-    "description": "Professional grade masonry drill bits for concrete and brick.",
-    "specs": {
-      "Material": "Carbon Steel + Carbide Tip",
-      "Shank": "Round / Hex"
-    },
-    "images": ["/images/masonry-01.jpg"],
-    "seo_title": "Masonry Drill Bits Set - Concrete Drilling Tools",
-    "seo_desc": "Impact resistant masonry drill bits for heavy duty work."
+    "images": [
+      "/images/products/hss-4241-1.jpg",
+      "/images/products/drill-main-2.jpg"
+    ],
+    "detail_images": [
+      "/images/products/detail-1.jpg",
+      "/images/products/detail-2.jpg",
+      "/images/products/detail-3.jpg"
+    ],
+    "seo_title": "Wholesale HSS Twist Drill Bits DIN338 | Factory Direct",
+    "seo_desc": "Buy HSS Twist Drill Bits directly from Daoge Xiaoman."
   }
 ]
