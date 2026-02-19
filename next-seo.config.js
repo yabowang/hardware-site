@@ -8,7 +8,7 @@ export default {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://xiaomantools.com/',
+    url: 'https://www.xiaomantools.com',
     site_name: 'Shanghai Daoge Xiaoman Tools Co., Ltd.',
   },
   twitter: {
