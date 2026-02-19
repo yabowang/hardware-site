@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Sitemap URL (把 yourdomain 换成你的真实域名)
-Sitemap: https://xiaomantools.com/sitemap.xml
+Sitemap: https://www.xiaomantools.com/sitemap.xml

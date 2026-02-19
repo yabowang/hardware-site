@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Privacy() {
   const companyName = "Shanghai Daoge Xiaoman Tools Co., Ltd.";
-  const websiteUrl = "https://xiaomantools.com";
+  const websiteUrl = "https://www.xiaomantools.com";
   const contactEmail = "info@xiaomantools.com";
 
   return (
