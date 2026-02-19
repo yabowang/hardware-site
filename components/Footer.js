@@ -57,7 +57,7 @@ export default function Footer() {
             <li className="flex items-center">
               <FaFacebook className="mr-3 text-blue-500 shrink-0" />
               {/* 社交媒体链接 */}
-              <a href="#" className="text-gray-400 hover:text-white transition"></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/profile.php?id=61587991158000" className="text-gray-400 hover:text-white transition">Xiaoman Tools</a>
             </li>
             <li className="flex items-start">
               <FaMapMarkerAlt className="mt-1 mr-3 text-blue-500 shrink-0" />
