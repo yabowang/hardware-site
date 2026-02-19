@@ -1,24 +1,32 @@
 [
   {
-    "id": "hss-twist-drill-001",
-    "name": "HSS Twist Drill Bit DIN338",
-    "slug": "hss-twist-drill-bit-din338",
+    "id": "twist-drill-hSS-4241",
+    "name": "HSS-4241 Twist Drill",
+    "slug": "twist-drill-hSS-4241",
     "category": "Twist Drills",
-    "description": "High-quality HSS twist drill bit suitable for drilling steel, wood, and plastic.",
+    "description": "High-quality HSS twist drill bit, suitable for drilling sheet metal, copper, aluminum, wood, and plastic.",
     "specs": {
-      "Material": "HSS 4241/6542/M35",
-      "Standard": "DIN338"
+      "Material": "HSS-G (High-Speed Steel Ground) 4241",
+      "Size Range": "1.0mm - 13.0mm",
+      "Cutting Angle String": "135°",
+      "Shank Type": "Straight Shank",
+      "Flute Type": "Spiral / Twist Flute",
+      "Application": "Ideal for drilling sheet metal, copper, aluminum, wood, and plastic.",
+      "Applicable Machines": "Handheld drills, drill presses, milling machines, CNC machining centers.",
+      "Application Scenarios": "Ideal for auto repair, home improvement, and DIY projects."
     },
     "images": [
-      "/images/products/hss-4241-1.jpg",
-      "/images/products/drill-main-2.jpg"
+      "/images/products/hss-4241/hss-4241-1.jpg",
+      "/images/products/hss-4241/hss-4241-2.jpg",
+      "/images/products/hss-4241/hss-4241-3.jpg",
+      "/images/products/hss-4241/hss-4241-4.jpg"
     ],
     "detail_images": [
-      "/images/products/detail-1.jpg",
-      "/images/products/detail-2.jpg",
-      "/images/products/detail-3.jpg"
+      "/images/products/hss-4241/hss-4241-detail-1.jpg",
+      "/images/products/hss-4241/hss-4241-detail-2.jpg",
+      "/images/products/hss-4241/hss-4241-detail-3.jpg"
     ],
-    "seo_title": "Wholesale HSS Twist Drill Bits DIN338 | Factory Direct",
-    "seo_desc": "Buy HSS Twist Drill Bits directly from Daoge Xiaoman."
+    "seo_title": "Wholesale HSS Twist Drill Bits 4241 | Factory Direct",
+    "seo_desc": "Buy HSS Twist Drill Bits 4241 directly from Daoge Xiaoman Tools"
   }
 ]

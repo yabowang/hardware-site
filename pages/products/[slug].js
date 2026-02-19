@@ -20,7 +20,7 @@ export default function ProductDetail({ product }) {
   return (
     <>
       <NextSeo
-        title={`${product.name} | Daoge Tools`}
+        title={`${product.name} - Xiaoman Tools`}
         description={product.seo_desc || product.description}
         openGraph={{
           title: product.seo_title,
@@ -118,7 +118,7 @@ export default function ProductDetail({ product }) {
                 {/* 卖点列表 */}
                 <ul className="space-y-2 mb-8 text-gray-600 font-medium">
                   <li className="flex items-center gap-2"><FaCheckCircle className="text-green-500" /> Factory Direct Pricing</li>
-                  <li className="flex items-center gap-2"><FaCheckCircle className="text-green-500" /> Strict DIN Standard QC</li>
+                  <li className="flex items-center gap-2"><FaCheckCircle className="text-green-500" /> Strict Standard QC</li>
                   <li className="flex items-center gap-2"><FaCheckCircle className="text-green-500" /> Support OEM / Custom Packaging</li>
                 </ul>
 

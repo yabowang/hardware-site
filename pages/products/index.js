@@ -15,7 +15,7 @@ export default function ProductList({ allProducts, categories }) {
   return (
     <>
       <NextSeo
-        title="Product Catalog | Daoge Xiaoman Tools"
+        title="Product Catalog - Xiaoman Tools"
         description="Browse our complete catalog of industrial hardware tools, including HSS twist drill bits, masonry drills, and saw blades."
       />
 
