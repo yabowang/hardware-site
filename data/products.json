@@ -8,7 +8,7 @@
     "specs": {
       "Material": "HSS-G (High-Speed Steel Ground) 4241",
       "Size Range": "1.0mm - 13.0mm",
-      "Cutting Angle String": "135°",
+      "Point Angle": "135° Split Point",
       "Shank Type": "Straight Shank",
       "Flute Type": "Spiral / Twist Flute",
       "Application": "Ideal for drilling sheet metal, copper, aluminum, wood, and plastic.",
@@ -39,9 +39,10 @@
       "Material": "HSS M2 / 6542 (High-Speed Steel M2)",
       "Process": "Fully Ground",
       "Size Range": "1.0mm - 13.0mm",
-      "Cutting Angle String": "135°",
+      "Point Angle": "135° Split Point",
       "Structural Metals": "Angle irons, carbon steel frames, and shelving units.",
       "Automotive & Machinery": "Cast iron parts, engine components, and machinery housings.",
+      "Applicable Machines": "Pistol drills, bench drills, hand drills, bench drills, etc.",
       "Construction & Plumbing": "Aluminum door/window profiles, copper pipes, and brass fittings.",
       "General Purpose": "Hard plastics, acrylic boards, and wood for daily maintenance and DIY projects.",
       "Fully Ground Precision": "CNC fully ground design ensures sharp cutting edges and highly symmetrical flutes for fast, smooth, and friction-free drilling.",
@@ -57,6 +58,38 @@
       "/images/products/hss-6542/hss-6542-detail-2.jpg",
       "/images/products/hss-6542/hss-6542-detail-3.jpg",
       "/images/products/hss-6542/hss-6542-detail-4.jpg"
+    ],
+    "seo_title": "Wholesale HSS Twist Drill Bits M2(6542) | Factory Direct",
+    "seo_desc": "Buy HSS Twist Drill Bits M2(6542) directly from Daoge Xiaoman Tools"
+  },
+  {
+    "id": "hSS-M35",
+    "name": "HSS-Co M35 Twist Drill Bit",
+    "slug": "twist-drill-hSS-M35",
+    "category": "Twist Drills",
+    "description": "Industrial Grade HSS-Co M35 Cobalt Twist Drill Bit (DIN 338) - 135° Split Point for Stainless Steel & Inox",
+    "specs": {
+      "Material": "HSS-Co M35 (5% Cobalt Alloyed)",
+      "Process": "CNC Fully Ground",
+      "Size Range": "1.0mm - 13.0mm",
+      "Point Angle": "135° Split Point",
+      "Stainless Steel Killer": "Optimized specifically for drilling 304/316 stainless steel (Inox) and other hard-to-machine metals.",
+      "Superior Heat Resistance": "The 5% cobalt content allows the drill bit to withstand high-speed drilling temperatures without losing its sharp edge.",
+      "No Walking, Fast Penetration": "The 135° split point self-centers immediately upon contact, requiring less feed pressure and reducing operator fatigue.",
+      "Cost-Effective Durability": "Outlasts standard HSS M2 bits by up to 3-5 times when drilling hard alloys, significantly lowering your cost-per-hole.",
+      "Warning": "TCeramic tiles, concrete, wall surfaces, and stone materials are prohibited!"
+    },
+    "images": [
+      "/images/products/hss-m35/hss-m35-1.jpg",
+      "/images/products/hss-m35/hss-m35-2.jpg",
+      "/images/products/hss-m35/hss-m35-4.jpg",
+      "/images/products/hss-m35/hss-m35-3.jpg"
+    ],
+    "detail_images": [
+      "/images/products/hss-m35/hss-m35-detail-1.jpg",
+      "/images/products/hss-m35/hss-m35-detail-2.jpg",
+      "/images/products/hss-6542/hss-6542-detail-1.jpg",
+      "/images/products/hss-6542/hss-6542-detail-2.jpg"
     ],
     "seo_title": "Wholesale HSS Twist Drill Bits M2(6542) | Factory Direct",
     "seo_desc": "Buy HSS Twist Drill Bits M2(6542) directly from Daoge Xiaoman Tools"
