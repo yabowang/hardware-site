@@ -77,7 +77,7 @@
       "Superior Heat Resistance": "The 5% cobalt content allows the drill bit to withstand high-speed drilling temperatures without losing its sharp edge.",
       "No Walking, Fast Penetration": "The 135° split point self-centers immediately upon contact, requiring less feed pressure and reducing operator fatigue.",
       "Cost-Effective Durability": "Outlasts standard HSS M2 bits by up to 3-5 times when drilling hard alloys, significantly lowering your cost-per-hole.",
-      "Warning": "TCeramic tiles, concrete, wall surfaces, and stone materials are prohibited!"
+      "IMPORTANT": "TCeramic tiles, concrete, wall surfaces, and stone materials are prohibited!"
     },
     "images": [
       "/images/products/hss-m35/hss-m35-1.jpg",
@@ -93,5 +93,66 @@
     ],
     "seo_title": "Wholesale HSS Twist Drill Bits M2(6542) | Factory Direct",
     "seo_desc": "Buy HSS Twist Drill Bits M2(6542) directly from Daoge Xiaoman Tools"
+  },
+  {
+    "id": "carbide-drills",
+    "name": "Solid Carbide Drill Bit",
+    "slug": "carbide-drills",
+    "category": "Twist Drills",
+    "description": "Premium Solid Carbide Twist Drill Bit (Without Internal Coolant) - High-Performance for CNC Machining",
+    "specs": {
+      "Material": "Solid Tungsten Carbide",
+      "Coolant Type": "External Coolant Only / No Internal Coolant",
+      "Size Range": "1.0mm - 12.0mm",
+      "Point Angle": "135° / 140°",
+      "Coating": "AlTiN / TiAlN / Uncoated",
+      "Machine Setup": "CNC machining center, engraving machine, precision engraving machine, lathe",
+      "Extreme Hardness & Rigidity": "Solid carbide construction prevents tool deflection, ensuring perfectly straight and accurate holes even at high feed rates.",
+      "Extended Tool Life": "Advanced AlTiN/TiAlN coating significantly reduces friction and thermal shock, outlasting standard HSS bits by 10 to 20 times in mass production.",
+      "Excellent Chip Evacuation": "Precision-ground spiral flutes facilitate rapid chip removal, preventing chip packing and tool breakage in blind holes.",
+      "IMPORTANT": "Solid carbide is incredibly hard but inherently brittle. These drill bits MUST be used in rigid, highly stable CNC machine tools or automatic lathes with proper external coolant. DO NOT use with hand drills, magnetic drills, or unstable drill presses, as any lateral movement or vibration will cause immediate tool breakage."
+    },
+    "images": [
+      "/images/products/carbide-drills/carbide-drills-1.jpg",
+      "/images/products/carbide-drills/carbide-drills-2.jpg",
+      "/images/products/carbide-drills/carbide-drills-4.jpg",
+      "/images/products/carbide-drills/carbide-drills-3.jpg"
+    ],
+    "detail_images": [
+      "/images/products/carbide-drills/carbide-drills-detail-1.jpg"
+    ],
+    "seo_title": "Wholesale HSS Twist Drill Bits carbide-drills | Factory Direct",
+    "seo_desc": "Buy HSS Twist Drill Bits carbide-drills directly from Daoge Xiaoman Tools"
+  },
+  {
+    "id": "carbide-drills-coolant",
+    "name": "Through-Coolant Solid Carbide Drill Bit",
+    "slug": "carbide-drills-coolant",
+    "category": "Twist Drills",
+    "description": "High-Performance Solid Carbide Drill Bit with Through-Coolant (3xD / 5xD / 8xD)",
+    "specs": {
+      "Material": "Micro-grain Solid Tungsten Carbide",
+      "Cooling System": "Internal Through-Coolant / Spiral Coolant Holes",
+      "Size Range": "1.0mm - 12.0mm",
+      "Point Angle": "135° / 140°",
+      "Drilling Depth": "3xD / 5xD / 8xD",
+      "Advanced Coating": "TiAlN / AlTiN Nano-coating",
+      "Workpiece Materials": "Stainless steel, titanium alloy, cast iron, spring steel",
+      "Machine Setup": "CNC machining center, engraving machine, precision engraving machine, lathe",
+      "Instant Heat Dissipation": "Internal coolant flows directly to the drill tip, preventing thermal cracking, tool burnout, and material work-hardening during high-speed operations.",
+      "Flawless Chip Evacuation": "The high-pressure coolant forcefully flushes chips out of the flutes instantly, completely eliminating chip packing and the risk of drill breakage in deep blind holes.",
+      "Higher Feed & Speed Rates": "Achieves up to 2-3 times the penetration rate of external-coolant carbide drills, drastically reducing cycle times."
+    },
+    "images": [
+      "/images/products/carbide-drills-coolant/carbide-drills-coolant-1.jpg",
+      "/images/products/carbide-drills-coolant/carbide-drills-coolant-2.jpg",
+      "/images/products/carbide-drills-coolant/carbide-drills-coolant-4.jpg",
+      "/images/products/carbide-drills-coolant/carbide-drills-coolant-3.jpg"
+    ],
+    "detail_images": [
+      "/images/products/carbide-drills-coolant/carbide-drills-coolant-detail-1.jpg"
+    ],
+    "seo_title": "Wholesale HSS Twist Drill Bits carbide-drills | Factory Direct",
+    "seo_desc": "Buy HSS Twist Drill Bits carbide-drills directly from Daoge Xiaoman Tools"
   }
 ]

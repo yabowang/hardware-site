@@ -2,37 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.xiaomantools.com</loc>
-    <lastmod>2026-02-19T15:30:28.594Z</lastmod>
+    <lastmod>2026-02-20T14:59:51.938Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.xiaomantools.com/products</loc>
-    <lastmod>2026-02-19T15:30:28.595Z</lastmod>
+    <lastmod>2026-02-20T14:59:51.938Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.xiaomantools.com/about</loc>
-    <lastmod>2026-02-19T15:30:28.595Z</lastmod>
+    <lastmod>2026-02-20T14:59:51.938Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.xiaomantools.com/contact</loc>
-    <lastmod>2026-02-19T15:30:28.595Z</lastmod>
+    <lastmod>2026-02-20T14:59:51.938Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.xiaomantools.com/blog</loc>
-    <lastmod>2026-02-19T15:30:28.595Z</lastmod>
+    <lastmod>2026-02-20T14:59:51.938Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.xiaomantools.com/products/twist-drill-hSS-4241</loc>
-    <lastmod>2026-02-19T15:30:28.595Z</lastmod>
+    <lastmod>2026-02-20T14:59:51.938Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.xiaomantools.com/products/twist-drill-hSS-M2(6542)</loc>
+    <lastmod>2026-02-20T14:59:51.938Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.xiaomantools.com/products/twist-drill-hSS-M35</loc>
+    <lastmod>2026-02-20T14:59:51.938Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.xiaomantools.com/products/carbide-drills</loc>
+    <lastmod>2026-02-20T14:59:51.938Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.xiaomantools.com/products/carbide-drills-coolant</loc>
+    <lastmod>2026-02-20T14:59:51.938Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
