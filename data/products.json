@@ -1,6 +1,6 @@
 [
   {
-    "id": "twist-drill-hSS-4241",
+    "id": "hSS-4241",
     "name": "HSS-4241 Twist Drill",
     "slug": "twist-drill-hSS-4241",
     "category": "Twist Drills",
@@ -29,23 +29,23 @@
     "seo_title": "Wholesale HSS Twist Drill Bits 4241 | Factory Direct",
     "seo_desc": "Buy HSS Twist Drill Bits 4241 directly from Daoge Xiaoman Tools"
   },
-    {
-    "id": "twist-drill-hSS-M2-6542",
-    "name": "HSS-M2-6542 Twist Drill",
-    "slug": "twist-drill-hSS-M2-6542",
+  {
+    "id": "hSS-6542",
+    "name": "HSS-M2(6542) Twist Drill",
+    "slug": "twist-drill-hSS-M2(6542)",
     "category": "Twist Drills",
-    "description": "High-quality HSS twist drill bit, suitable for drilling sheet metal, copper, aluminum, wood, and plastic.",
+    "description": "Manufactured from authentic HSS M2 (6542) steel, delivering outstanding wear resistance and extending tool life by up to 30% compared to standard bits.",
     "specs": {
       "Material": "HSS M2 / 6542 (High-Speed Steel M2)",
       "Process": "Fully Ground",
       "Size Range": "1.0mm - 13.0mm",
       "Cutting Angle String": "135°",
-      "Shank Type": "Straight Shank",
-      "Flute Type": "Spiral / Twist Flute",
-      "Application": "Ideal for drilling sheet metal, copper, aluminum, wood, and plastic.",
-      "Applicable Machines": "Handheld drills, drill presses, milling machines, CNC machining centers.",
-      "Application Scenarios": "Ideal for auto repair, home improvement, and DIY projects.",
-      "Fully Ground Spiral Flutes": "Engineered for rapid chip removal, reducing friction and heat buildup to extend drill life."
+      "Structural Metals": "Angle irons, carbon steel frames, and shelving units.",
+      "Automotive & Machinery": "Cast iron parts, engine components, and machinery housings.",
+      "Construction & Plumbing": "Aluminum door/window profiles, copper pipes, and brass fittings.",
+      "General Purpose": "Hard plastics, acrylic boards, and wood for daily maintenance and DIY projects.",
+      "Fully Ground Precision": "CNC fully ground design ensures sharp cutting edges and highly symmetrical flutes for fast, smooth, and friction-free drilling.",
+      "135° Split Point Design": "The 135-degree split point prevents walking on hard surfaces, requiring less feed pressure for quick penetration."
     },
     "images": [
       "/images/products/hss-6542/hss-6542-1.jpg",
@@ -55,9 +55,10 @@
     "detail_images": [
       "/images/products/hss-6542/hss-6542-detail-1.jpg",
       "/images/products/hss-6542/hss-6542-detail-2.jpg",
-      "/images/products/hss-6542/hss-6542-detail-3.jpg"
+      "/images/products/hss-6542/hss-6542-detail-3.jpg",
+      "/images/products/hss-6542/hss-6542-detail-4.jpg"
     ],
-    "seo_title": "Wholesale HSS Twist Drill Bits M2-6542 | Factory Direct",
-    "seo_desc": "Buy HSS Twist Drill Bits M2-6542 directly from Daoge Xiaoman Tools"
+    "seo_title": "Wholesale HSS Twist Drill Bits M2(6542) | Factory Direct",
+    "seo_desc": "Buy HSS Twist Drill Bits M2(6542) directly from Daoge Xiaoman Tools"
   }
 ]

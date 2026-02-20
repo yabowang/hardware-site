@@ -44,7 +44,7 @@ export default function Home({ featuredProducts }) {
             {/* 主标题：纯白，带一点阴影增加对比度 */}
             <h1 className="text-5xl md:text-6xl font-extrabold text-white leading-tight mb-6 drop-shadow-md">
               Precision Tools <br />
-              <span className="text-gray-300">Global Standards.</span>
+              <span className="text-gray-300">Global Standards</span>
             </h1>
 
             {/* 副标题：浅灰，字号适中 */}
