@@ -155,7 +155,7 @@ export default function Home({ featuredProducts }) {
           </div>
 
           {/* 右侧图片区域 */}
-          <div className="relative h-[500px] w-[850px] bg-gray-100 rounded-lg overflow-hidden shadow-xl border-4 border-white">
+          <div className="relative h-[500px] bg-gray-100 rounded-lg overflow-hidden shadow-xl border-4 border-white">
             {/* 复用 Banner 图，或者换成工厂内部图 */}
             <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('/images/banner-2.jpg')" }}></div>
           </div>
