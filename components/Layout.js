@@ -1,6 +1,7 @@
 import Header from './Header';
 import Footer from './Footer';
-import WhatsAppFloat from './WhatsAppFloat';
+// 1. 引入我们刚写好的悬浮组件
+import FloatingContact from './FloatingContact';
 
 export default function Layout({ children }) {
   return (
@@ -11,7 +12,9 @@ export default function Layout({ children }) {
         {children}
       </main>
       <Footer />
-      <WhatsAppFloat />
+      {/* <WhatsAppFloat /> */}
+      {/* 2. 把组件放在这里，它会自动固定在屏幕右侧 */}
+      <FloatingContact />
     </div>
   );
 }

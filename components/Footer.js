@@ -54,11 +54,6 @@ export default function Footer() {
               <FaWhatsapp className="mr-3 text-blue-500 shrink-0" />
               <a href="https://wa.me/8615618076867" target="_blank" className="hover:text-white">+86 156 1807 6867</a>
             </li>
-            <li className="flex items-center">
-              <FaFacebook className="mr-3 text-blue-500 shrink-0" />
-              {/* 社交媒体链接 */}
-              <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/profile.php?id=61587991158000" className="text-gray-400 hover:text-white transition">Xiaoman Tools</a>
-            </li>
             <li className="flex items-start">
               <FaMapMarkerAlt className="mt-1 mr-3 text-blue-500 shrink-0" />
               <span>No. 1000 Zhenchen Road, Baoshan District, Shanghai, China</span>
