@@ -28,13 +28,13 @@ export default function ProductDetail({ product }) {
           images: [{ url: `https://www.xiaomantools.com${product.images[0]}` }],
         }}
       />
-      
+
       <div className="bg-gray-50 pb-20">
-        
+
         {/* ================= 1. 顶部：产品信息与主图 ================= */}
         <div className="bg-white border-b border-gray-200">
           <div className="container-custom py-8 md:py-12">
-            
+
             {/* 面包屑导航 (SEO 友好) */}
             <nav className="text-sm text-gray-500 mb-8 flex items-center space-x-2">
               <Link href="/" className="hover:text-blue-600">Home</Link>
@@ -45,32 +45,31 @@ export default function ProductDetail({ product }) {
             </nav>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16">
-              
+
               {/* 左侧：图片展示区 */}
               <div className="flex flex-col gap-4">
                 {/* 大主图 */}
                 <div className="bg-gray-50 border border-gray-100 rounded-xl overflow-hidden aspect-square flex items-center justify-center p-4">
                   {activeImage ? (
-                    <img 
-                      src={activeImage} 
-                      alt={product.name} 
+                    <img
+                      src={activeImage}
+                      alt={product.name}
                       className="w-full h-full object-contain mix-blend-darken"
                     />
                   ) : (
                     <span className="text-gray-400">No Image Available</span>
                   )}
                 </div>
-                
+
                 {/* 下方缩略图列表 (超过1张才显示) */}
                 {product.images.length > 1 && (
                   <div className="flex gap-3 overflow-x-auto pb-2">
                     {product.images.map((img, idx) => (
-                      <button 
-                        key={idx} 
+                      <button
+                        key={idx}
                         onClick={() => setActiveImage(img)}
-                        className={`flex-shrink-0 w-20 h-20 rounded-lg border-2 overflow-hidden p-1 bg-white transition-all ${
-                          activeImage === img ? 'border-amber-500 shadow-md' : 'border-gray-200 hover:border-gray-300'
-                        }`}
+                        className={`flex-shrink-0 w-20 h-20 rounded-lg border-2 overflow-hidden p-1 bg-white transition-all ${activeImage === img ? 'border-amber-500 shadow-md' : 'border-gray-200 hover:border-gray-300'
+                          }`}
                       >
                         <img src={img} alt={`Thumbnail ${idx}`} className="w-full h-full object-cover mix-blend-darken" />
                       </button>
@@ -126,17 +125,17 @@ export default function ProductDetail({ product }) {
                 <div className="mt-auto pt-6 border-t border-gray-200">
                   <p className="text-sm text-gray-500 mb-4 font-medium">Want to know the MOQ and latest price?</p>
                   <div className="flex flex-col sm:flex-row gap-4">
-                    <a 
-                      href={whatsappLink} 
-                      target="_blank" 
+                    <a
+                      href={whatsappLink}
+                      target="_blank"
                       rel="noreferrer"
                       className="flex-1 flex items-center justify-center gap-2 bg-[#25D366] text-white px-6 py-4 rounded-lg font-bold text-lg hover:bg-[#128C7E] transition shadow-lg shadow-green-500/20"
                     >
                       <FaWhatsapp size={24} />
                       Chat on WhatsApp
                     </a>
-                    <a 
-                      href="mailto:info@xiaomantools.com" 
+                    <a
+                      href="mailto:info@xiaomantools.com"
                       className="flex-1 flex items-center justify-center gap-2 bg-gray-900 text-white px-6 py-4 rounded-lg font-bold text-lg hover:bg-gray-800 transition shadow-lg shadow-gray-900/20"
                     >
                       Email Inquiry
@@ -148,32 +147,53 @@ export default function ProductDetail({ product }) {
           </div>
         </div>
 
-        {/* ================= 2. 底部：商品详情 (图片流) ================= */}
+        {/* ================= 2. 底部：商品详情 (富文本 + 图片流) ================= */}
         <div className="container-custom mt-12">
           <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
-            {/* 标题栏 */}
+
+            {/* 统一的标题栏 */}
             <div className="bg-gray-100 border-b border-gray-200 px-8 py-4">
               <h2 className="text-2xl font-bold text-gray-900">Product Details</h2>
             </div>
-            
-            {/* 详情图展示区 */}
-            <div className="p-4 md:p-8 flex flex-col items-center">
-              {detailImages && detailImages.length > 0 ? (
-                // 循环渲染详情图，设置为 w-full 最大宽度 100%
-                detailImages.map((imgUrl, index) => (
-                  <img 
-                    key={index}
-                    src={imgUrl} 
-                    alt={`${product.name} Detail ${index + 1}`} 
-                    className="w-full max-w-4xl h-auto block mb-[-1px]" // mb-[-1px] 消除图片之间的缝隙
-                    loading="lazy" // 延迟加载，优化长图页面的性能
-                  />
-                ))
-              ) : (
-                <div className="py-20 text-gray-400">
-                  Detail images will be updated soon.
-                </div>
+
+            <div className="p-4 md:p-8">
+
+              {/* 上半部分：富文本说明区 (如果有 details_html 才渲染) */}
+              {product.details_html && (
+                <div
+                  className="mb-10 text-gray-700 leading-relaxed max-w-none
+                             [&>h3]:text-xl [&>h3]:font-bold [&>h3]:text-gray-900 [&>h3]:mb-4 [&>h3]:mt-6
+                             [&>p]:mb-4 
+                             [&>ul]:list-disc [&>ul]:pl-5 [&>ul]:mb-6
+                             [&>table]:w-full [&>table]:border-collapse [&>table]:mb-6 [&>table]:text-sm
+                             [&>table_th]:border [&>table_th]:border-gray-200 [&>table_th]:bg-gray-50 [&>table_th]:p-3 [&>table_th]:text-left [&>table_th]:font-bold [&>table_th]:text-gray-900
+                             [&>table_td]:border [&>table_td]:border-gray-200 [&>table_td]:p-3 [&>table_td]:text-gray-600"
+                  dangerouslySetInnerHTML={{ __html: product.details_html }}
+                />
               )}
+
+              {/* 下半部分：详情长图展示区 */}
+              <div className="flex flex-col items-center">
+                {detailImages && detailImages.length > 0 ? (
+                  detailImages.map((imgUrl, index) => (
+                    <img
+                      key={index}
+                      src={imgUrl}
+                      alt={`${product.name} Detail ${index + 1}`}
+                      className="w-full max-w-4xl h-auto block mb-[-1px]"
+                      loading="lazy"
+                    />
+                  ))
+                ) : (
+                  // 如果既没有富文本又没有图片，显示友好提示
+                  !product.details_html && (
+                    <div className="py-20 text-gray-400">
+                      Detail information will be updated soon.
+                    </div>
+                  )
+                )}
+              </div>
+
             </div>
           </div>
         </div>

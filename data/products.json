@@ -1,13 +1,13 @@
 [
   {
-    "id": "hSS-4241",
+    "id": "hss-4241",
     "name": "HSS-4241 Twist Drill",
-    "slug": "twist-drill-hSS-4241",
+    "slug": "hss-4241",
     "category": "Twist Drills",
     "description": "High-quality HSS twist drill bit, suitable for drilling sheet metal, copper, aluminum, wood, and plastic.",
     "specs": {
       "Material": "HSS-G (High-Speed Steel Ground) 4241",
-      "Size Range": "1.0mm - 13.0mm",
+      "Size Range": "1.0mm - 13.0mm(Optional)",
       "Point Angle": "135° Split Point",
       "Shank Type": "Straight Shank",
       "Flute Type": "Spiral / Twist Flute",
@@ -15,16 +15,19 @@
       "Applicable Machines": "Handheld drills, drill presses, milling machines, CNC machining centers.",
       "Application Scenarios": "Ideal for auto repair, home improvement, and DIY projects."
     },
+    "details_html": "<div style=\"font-family: Arial, sans-serif; line-height: 1.6; color: #333;\">\r\n\r\n  <h2 style=\"color: #0056b3; border-bottom: 2px solid #eee; padding-bottom: 5px;\">Premium HSS 4241 Twist Drill Bits<\/h2>\r\n  <p><strong>High-Performance Drilling for Everyday Applications<\/strong><\/p>\r\n  <p>Manufactured for durability and efficiency, our HSS 4241 twist drill bits offer the perfect balance of reliable quality and exceptional cost-effectiveness for your hardware sourcing needs.<\/p>\r\n  \r\n  <h3 style=\"color: #444; margin-top: 20px;\">Why Choose Our 4241 Drill Bits?<\/h3>\r\n  <ul style=\"list-style-type: square; margin-bottom: 20px;\">\r\n    <li><strong>Exceptional Quality:<\/strong> Made from selected High-Speed Steel (HSS 4241), featuring high hardness, smooth chip removal, and excellent wear resistance for general-purpose drilling.<\/li>\r\n    <li><strong>Comprehensive Sizes:<\/strong> Available in a full range of diameters and lengths (both metric and imperial standards) to perfectly match your specific processing requirements.<\/li>\r\n    <li><strong>Customizable Packaging (OEM Supported):<\/strong> We provide flexible packaging solutions. From individual plastic tubes and blister cards to professional metal box sets, we can customize the packaging with your brand logo to enhance your market presence.<\/li>\r\n  <\/ul>\r\n\r\n  <h3 style=\"color: #444;\">Versatile Applications<\/h3>\r\n  <p>Ideal for general-purpose drilling. Highly efficient on <strong>wood, plastics, aluminum alloys, and thin mild steel<\/strong>. <br>\r\n  <em>*Note: For heavy-duty stainless steel or hard metal drilling, please inquire about our HSS-Co (M35) series.<\/em><\/p>\r\n\r\n<\/div>",
     "images": [
-      "/images/products/hss-4241/hss-4241-1.jpg",
-      "/images/products/hss-4241/hss-4241-2.jpg",
-      "/images/products/hss-4241/hss-4241-3.jpg",
-      "/images/products/hss-4241/hss-4241-4.jpg"
+      "/images/products/hss-4241/4241-1.jpg",
+      "/images/products/hss-4241/4241-2.jpg",
+      "/images/products/hss-4241/4241-9.jpg",
+      "/images/products/hss-4241/4241-3.jpg"
     ],
     "detail_images": [
-      "/images/products/hss-4241/hss-4241-detail-1.jpg",
-      "/images/products/hss-4241/hss-4241-detail-2.jpg",
-      "/images/products/hss-4241/hss-4241-detail-3.jpg"
+      "/images/products/hss-4241/4241-4.jpg",
+      "/images/products/hss-4241/4241-5.jpg",
+      "/images/products/hss-4241/4241-6.jpg",
+      "/images/products/hss-4241/4241-7.jpg",
+      "/images/products/hss-4241/4241-8.jpg"
     ],
     "seo_title": "Wholesale HSS Twist Drill Bits 4241 | Factory Direct",
     "seo_desc": "Buy HSS Twist Drill Bits 4241 directly from Daoge Xiaoman Tools"
@@ -139,7 +142,7 @@
       "Advanced Coating": "TiAlN / AlTiN Nano-coating",
       "Workpiece Materials": "Stainless steel, titanium alloy, cast iron, spring steel",
       "Machine Setup": "CNC machining center, engraving machine, precision engraving machine, lathe",
-      "Instant Heat Dissipation": "Internal coolant flows directly to the drill tip, preventing thermal cracking, tool burnout, and material work-hardening during high-speed operations.",
+      "Instant Heat Dissipation": "Internal coolant flows direjctly to the drill tip, preventing thermal cracking, tool burnout, and material work-hardening during high-speed operations.",
       "Flawless Chip Evacuation": "The high-pressure coolant forcefully flushes chips out of the flutes instantly, completely eliminating chip packing and the risk of drill breakage in deep blind holes.",
       "Higher Feed & Speed Rates": "Achieves up to 2-3 times the penetration rate of external-coolant carbide drills, drastically reducing cycle times."
     },
