@@ -3,10 +3,30 @@ import { NextSeo } from 'next-seo';
 import Link from 'next/link';
 import { FaWhatsapp, FaCheckCircle } from 'react-icons/fa';
 import products from '../../data/products.json';
+import categoriesTree from '../../data/categories.json';
+
+function getCategoryName(id) {
+  if (!id) return '';
+  for (const l1 of categoriesTree) {
+    if (l1.id === id) return l1.name;
+    if (l1.children) {
+      for (const l2 of l1.children) {
+        if (l2.id === id) return l2.name;
+        if (l2.children) {
+          for (const l3 of l2.children) {
+            if (l3.id === id) return l3.name;
+          }
+        }
+      }
+    }
+  }
+  return id; // 如果万一没找到，兜底显示原样
+}
 
 export default function ProductDetail({ product }) {
   // 状态：用于控制顶部主图显示哪一张
   const [activeImage, setActiveImage] = useState(product?.images[0] || '');
+  const categoryName = product.categoryName || getCategoryName(product.category);
 
   if (!product) return <div className="text-center py-20">Loading...</div>;
 
@@ -41,7 +61,7 @@ export default function ProductDetail({ product }) {
               <span>/</span>
               <Link href="/products" className="hover:text-blue-600">Products</Link>
               <span>/</span>
-              <span className="text-gray-900 font-medium">{product.category}</span>
+              <span className="text-gray-900 font-medium">{categoryName}</span>
             </nav>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16">
@@ -82,7 +102,7 @@ export default function ProductDetail({ product }) {
               <div className="flex flex-col">
                 <div className="mb-6">
                   <span className="inline-block px-3 py-1 bg-blue-50 text-blue-600 text-xs font-bold uppercase tracking-wider rounded-full mb-4">
-                    {product.category}
+                    {categoryName}
                   </span>
                   <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
                     {product.name}

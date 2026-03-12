@@ -1,0 +1,245 @@
+[
+    {
+        "id": "c1-milling-tools",
+        "name": "Milling Tools",
+        "zh_name": "铣削刀具 (铣刀)",
+        "children": [
+            {
+                "id": "c2-solid-carbide-end-mills",
+                "name": "Solid Carbide End Mills",
+                "zh_name": "整体硬质合金立铣刀 (钨钢铣刀)",
+                "children": [
+                    {
+                        "id": "c3-square-end-mills",
+                        "name": "Square End Mills",
+                        "zh_name": "平底立铣刀 (最常用的铣刀)",
+                        "children": []
+                    },
+                    {
+                        "id": "c3-ball-nose-end-mills",
+                        "name": "Ball Nose End Mills",
+                        "zh_name": "球头立铣刀 (用于曲面加工)",
+                        "children": []
+                    },
+                    {
+                        "id": "c3-corner-radius-end-mills",
+                        "name": "Corner Radius End Mills",
+                        "zh_name": "圆鼻立铣刀 (带R角，防崩刃)",
+                        "children": []
+                    },
+                    {
+                        "id": "c3-roughing-end-mills",
+                        "name": "Roughing End Mills",
+                        "zh_name": "波刃粗皮铣刀 (用于快速开粗)",
+                        "children": []
+                    },
+                    {
+                        "id": "c3-aluminum-end-mills",
+                        "name": "Aluminum Machining End Mills",
+                        "zh_name": "铝用立铣刀 (高光、不粘刀)",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "id": "c2-hss-end-mills",
+                "name": "HSS End Mills",
+                "zh_name": "高速钢立铣刀",
+                "children": [
+                    {
+                        "id": "c3-hss-co-end-mills",
+                        "name": "HSS-Co (M35/M42) End Mills",
+                        "zh_name": "含钴高速钢立铣刀 (加工硬料)",
+                        "children": []
+                    },
+                    {
+                        "id": "c3-hss-m2-end-mills",
+                        "name": "HSS (M2) End Mills",
+                        "zh_name": "普通高速钢立铣刀 (常规钢件)",
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "c1-drilling-tools",
+        "name": "Drilling Tools",
+        "zh_name": "孔加工刀具 (钻头)",
+        "children": [
+            {
+                "id": "c2-solid-carbide-drills",
+                "name": "Solid Carbide Drills",
+                "zh_name": "整体硬质合金钻头 (钨钢钻头)",
+                "children": [
+                    {
+                        "id": "c3-through-coolant-carbide-drills",
+                        "name": "Through-Coolant Carbide Drills",
+                        "zh_name": "带内冷孔钨钢钻头 (带内冷孔)",
+                        "children": []
+                    },
+                    {
+                        "id": "c3-standard-carbide-drills",
+                        "name": "Standard Solid Carbide Drills",
+                        "zh_name": "标准钨钢钻头 (无内冷孔)",
+                        "children": []
+                    },
+                    {
+                        "id": "c3-spotting-center-drills",
+                        "name": "Spotting & Center Drills",
+                        "zh_name": "定心钻与中心钻 (打孔前定位用)",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "id": "c2-hss-twist-drills",
+                "name": "HSS Twist Drills",
+                "zh_name": "高速钢麻花钻",
+                "children": [
+                    {
+                        "id": "c3-hss-co-twist-drills",
+                        "name": "HSS-Co Twist Drills",
+                        "zh_name": "含钴麻花钻 (打不锈钢用)",
+                        "children": []
+                    },
+                    {
+                        "id": "c3-hss-m2-twist-drills",
+                        "name": "HSS M2 (6542) Twist Drills",
+                        "zh_name": "工业级高速钢麻花钻 (常规金属)",
+                        "children": []
+                    },
+                    {
+                        "id": "c3-hss-4241-twist-drills",
+                        "name": "HSS 4241 Twist Drills",
+                        "zh_name": "经济型高速钢麻花钻 (木材/塑料/软钢)",
+                        "children": []
+                    },
+                    {
+                        "id": "c3-reduced-shank-drills",
+                        "name": "Reduced Shank Drills",
+                        "zh_name": "等柄钻/缩柄钻 (大头钻，柄细头大)",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "id": "c2-indexable-drills",
+                "name": "Indexable Drills",
+                "zh_name": "可转位钻头",
+                "children": [
+                    {
+                        "id": "c3-u-drills",
+                        "name": "U-Drills",
+                        "zh_name": "U钻/暴风钻 (装刀片的钻头，效率极高)",
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "c1-turning-cnc-inserts",
+        "name": "Turning & CNC Inserts",
+        "zh_name": "车削刀具与数控刀片",
+        "children": [
+            {
+                "id": "c2-turning-inserts",
+                "name": "Turning Inserts",
+                "zh_name": "车削刀片 (外圆/内孔车刀)",
+                "children": [
+                    {
+                        "id": "c3-carbide-turning-inserts",
+                        "name": "Carbide Turning Inserts",
+                        "zh_name": "硬质合金车削刀片 (最主流)",
+                        "children": []
+                    },
+                    {
+                        "id": "c3-cermet-inserts",
+                        "name": "Cermet Inserts",
+                        "zh_name": "金属陶瓷刀片 (表面光洁度高，精加工用)",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "id": "c2-milling-inserts",
+                "name": "Milling Inserts",
+                "zh_name": "铣削刀片",
+                "children": [
+                    {
+                        "id": "c3-carbide-milling-inserts",
+                        "name": "Carbide Milling Inserts",
+                        "zh_name": "硬质合金铣削刀片 (装在飞刀盘上用)",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "id": "c2-parting-grooving-inserts",
+                "name": "Parting & Grooving Inserts",
+                "zh_name": "切断与切槽刀片",
+                "children": [
+                    {
+                        "id": "c3-carbide-grooving-inserts",
+                        "name": "Carbide Grooving Inserts",
+                        "zh_name": "硬质合金切槽刀片",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "id": "c2-threading-inserts",
+                "name": "Threading Inserts",
+                "zh_name": "螺纹刀片",
+                "children": [
+                    {
+                        "id": "c3-carbide-threading-inserts",
+                        "name": "Carbide Threading Inserts",
+                        "zh_name": "硬质合金螺纹刀片 (车螺纹/挑丝用)",
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "c1-tool-holders-accessories",
+        "name": "Tool Holders & Accessories",
+        "zh_name": "刀柄与附件",
+        "children": [
+            {
+                "id": "c2-cnc-tool-holders",
+                "name": "CNC Tool Holders",
+                "zh_name": "数控刀柄 (连接机床主轴和刀具)",
+                "children": [
+                    {
+                        "id": "c3-bt-sk-hsk-holders",
+                        "name": "BT / SK / HSK Tool Holders",
+                        "zh_name": "BT / SK / HSK 标准刀柄",
+                        "children": []
+                    },
+                    {
+                        "id": "c3-collet-chucks",
+                        "name": "Collet Chucks",
+                        "zh_name": "夹头刀柄 (配合筒夹使用)",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "id": "c2-collets-accessories",
+                "name": "Collets & Accessories",
+                "zh_name": "筒夹与附件",
+                "children": [
+                    {
+                        "id": "c3-er-collets",
+                        "name": "ER Collets",
+                        "zh_name": "ER 筒夹 (最常用的弹性夹头)",
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }
+]

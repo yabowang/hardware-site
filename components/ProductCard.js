@@ -1,14 +1,33 @@
 import Link from 'next/link';
+import categoriesTree from '../data/categories.json';
+
+// 辅助函数：根据 ID 在整个分类树中寻找对应的真实 Name
+function getCategoryName(id) {
+  if (!id) return '';
+  for (const l1 of categoriesTree) {
+    if (l1.id === id) return l1.name;
+    if (l1.children) {
+      for (const l2 of l1.children) {
+        if (l2.id === id) return l2.name;
+        if (l2.children) {
+          for (const l3 of l2.children) {
+            if (l3.id === id) return l3.name;
+          }
+        }
+      }
+    }
+  }
+  return id; // 如果万一没找到，兜底显示原样
+}
 
 export default function ProductCard({ product }) {
-  // 提取产品的第一张图片作为卡片的封面图
-  // 如果没有图片，给一个空字符串兜底，防止报错
+  // 优先用外部传进来的 categoryName，如果没有，组件自己去查
+  const categoryName = product.categoryName || getCategoryName(product.category);
   const coverImage = product?.images?.[0] || '';
 
   return (
-    <div className="group border border-gray-200 rounded-xl overflow-hidden hover:shadow-2xl transition-all duration-300 bg-white flex flex-col h-full">
-
-      {/* 图片区域 */}
+    <div className="bg-white rounded-xl shadow-sm hover:shadow-xl transition-shadow duration-300 overflow-hidden border border-gray-100 flex flex-col h-full">
+      {/* 1. 商品图片 */}
       <Link href={`/products/${product.slug}`} className="h-56 bg-white relative overflow-hidden flex items-center justify-center border-b border-gray-100">
         {coverImage ? (
           // 如果有图片，渲染真实图片
@@ -31,28 +50,36 @@ export default function ProductCard({ product }) {
         <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-[0.02] transition-all duration-300 z-10" />
       </Link>
 
-      {/* 内容区域 */}
       <div className="p-6 flex flex-col flex-grow">
+        {/* 2. 分类名称 (现在它足够聪明，一定会显示 Name 了) */}
         <div className="text-xs font-bold text-amber-500 uppercase tracking-wider mb-2">
-          {product.category}
+          {categoryName}
         </div>
 
+        {/* 3. 商品名称 (加了 line-clamp-2 防止名称过长换行破坏排版) */}
         <Link href={`/products/${product.slug}`}>
-          <h3 className="text-lg font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors line-clamp-2" title={product.name}>
+          <h3 className="text-lg font-bold text-gray-900 mb-2 hover:text-amber-500 transition-colors line-clamp-2">
             {product.name}
           </h3>
         </Link>
 
-        <p className="text-gray-600 text-sm line-clamp-2 mb-6 flex-grow">
-          {product.description}
-        </p>
+        {/* 4. 商品简介 */}
+        {/* 外层盒子只负责 flex-grow 填满剩余空间，把 Details 按钮推到底部 */}
+        <div className="mb-4 flex-grow overflow-hidden">
 
-        {/* 底部按钮与标识 */}
-        <div className="mt-auto pt-4 border-t border-gray-100 flex items-center justify-between">
-          <span className="px-2 py-1 bg-gray-100 text-gray-600 text-xs font-semibold rounded">
+          {/* 内层文本只负责纯粹的 3 行截断，绝对不拉伸自己的高度 */}
+          <p className="text-gray-500 text-sm line-clamp-4 overflow-hidden break-words">
+            {product.description}
+          </p>
+
+        </div>
+
+        {/* 5. 底部按钮区 */}
+        <div className="mt-auto flex items-center justify-between pt-4 border-t border-gray-100">
+          <span className="text-xs font-bold text-gray-700 bg-gray-100 px-3 py-1 rounded-md">
             OEM/ODM
           </span>
-          <Link href={`/products/${product.slug}`} className="text-sm font-bold text-blue-600 hover:text-blue-800 flex items-center group-hover:translate-x-1 transition-transform">
+          <Link href={`/products/${product.slug}`} className="text-amber-600 font-bold text-sm hover:text-amber-500 flex items-center transition-colors">
             Details
             <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
           </Link>

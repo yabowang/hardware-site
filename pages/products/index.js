@@ -1,22 +1,80 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { NextSeo } from 'next-seo';
-import ProductCard from '../../components/ProductCard'; // 核心：引入我们做好的卡片组件
-import products from '../../data/products.json';
+import ProductCard from '../../components/ProductCard';
+import productsData from '../../data/products.json';
+import categoriesTree from '../../data/categories.json';
 
 export default function ProductList({ allProducts, categories }) {
-  // 状态管理：当前选中的分类，默认是 'All'
-  const [filter, setFilter] = useState('All');
+  // 状态管理：现在存储的是选中的分类 ID，而不是分类 Name
+  const [selectedL1Id, setSelectedL1Id] = useState('All');
+  const [selectedL2Id, setSelectedL2Id] = useState('All');
+  const [selectedL3Id, setSelectedL3Id] = useState('All');
 
-  // 根据当前选择的分类过滤商品
-  const filteredProducts = filter === 'All'
-    ? allProducts
-    : allProducts.filter(p => p.category === filter);
+  // ================= 1. 构建 ID 到 Name 的全局映射字典 =================
+  // 这样我们可以很方便地通过 ID 查出对应的名字，传给商品卡片显示
+  const categoryIdToName = useMemo(() => {
+    const map = {};
+    categories.forEach(l1 => {
+      map[l1.id] = l1.name;
+      l1.children?.forEach(l2 => {
+        map[l2.id] = l2.name;
+        l2.children?.forEach(l3 => {
+          map[l3.id] = l3.name;
+        });
+      });
+    });
+    return map;
+  }, [categories]);
+
+  // ================= 2. 动态计算可供选择的子分类列表 =================
+  const availableL1 = categories;
+
+  // 寻找当前选中的一级分类对象
+  const currentL1Obj = categories.find(c => c.id === selectedL1Id);
+  const availableL2 = currentL1Obj?.children || [];
+
+  // 寻找当前选中的二级分类对象
+  const currentL2Obj = currentL1Obj?.children?.find(c => c.id === selectedL2Id);
+  const availableL3 = currentL2Obj?.children || [];
+
+  // ================= 3. 处理点击事件 =================
+  const handleL1Change = (id) => {
+    setSelectedL1Id(id);
+    setSelectedL2Id('All'); // 重置下级 ID
+    setSelectedL3Id('All');
+  };
+
+  const handleL2Change = (id) => {
+    setSelectedL2Id(id);
+    setSelectedL3Id('All');
+  };
+
+  // ================= 4. 核心过滤逻辑 (基于 ID) =================
+  const filteredProducts = allProducts.filter(product => {
+    if (selectedL1Id === 'All') return true;
+
+    let validLeafIds = [];
+
+    if (selectedL3Id !== 'All') {
+      // 选到了三级，目标 ID 唯一
+      validLeafIds = [selectedL3Id];
+    } else if (selectedL2Id !== 'All') {
+      // 选了二级，目标 ID 是该二级下的所有三级 ID
+      validLeafIds = currentL2Obj?.children?.map(c => c.id) || [];
+    } else {
+      // 选了一级，目标 ID 是该一级下的所有三级 ID
+      validLeafIds = currentL1Obj?.children?.flatMap(l2 => l2.children?.map(c => c.id) || []) || [];
+    }
+
+    // 判断商品的 category ID 是否在计算出的有效列表中
+    return validLeafIds.includes(product.category);
+  });
 
   return (
     <>
       <NextSeo
-        title="Product Catalog - Xiaoman Tools"
-        description="Browse our complete catalog of industrial hardware tools, including HSS twist drill bits, masonry drills, and saw blades."
+        title="Product Catalog | Daoge Xiaoman Tools"
+        description="Browse our comprehensive catalog of industrial cutting tools, drill bits, and hardware accessories."
       />
 
       {/* ================= 1. 头部 Banner (带背景图版) ================= */}
@@ -45,60 +103,110 @@ export default function ProductList({ allProducts, categories }) {
         </div>
       </div>
       {/* ============================================================== */}
-      
+
 
       <div className="bg-gray-50 py-12 min-h-screen">
         <div className="container-custom">
 
-          {/* ================= 2. 分类筛选器 (Category Filters) ================= */}
-          <div className="flex flex-wrap justify-center gap-3 mb-12">
-            {/* "全部" 按钮 */}
-            <button
-              onClick={() => setFilter('All')}
-              className={`px-6 py-2.5 rounded-full text-sm font-bold transition-all shadow-sm ${filter === 'All'
-                ? 'bg-amber-500 text-gray-900 scale-105'
-                : 'bg-white text-gray-600 hover:bg-gray-100 hover:text-gray-900 border border-gray-200'
-                }`}
-            >
-              All Products
-            </button>
+          {/* ================= 筛选面板 ================= */}
+          <div className="bg-white p-6 md:p-8 rounded-xl shadow-sm border border-gray-200 mb-10">
 
-            {/* 动态渲染其他分类按钮 */}
-            {categories.map(cat => (
-              <button
-                key={cat}
-                onClick={() => setFilter(cat)}
-                className={`px-6 py-2.5 rounded-full text-sm font-bold transition-all shadow-sm ${filter === cat
-                  ? 'bg-amber-500 text-gray-900 scale-105'
-                  : 'bg-white text-gray-600 hover:bg-gray-100 hover:text-gray-900 border border-gray-200'
-                  }`}
-              >
-                {cat}
-              </button>
-            ))}
+            {/* 第一级分类 */}
+            <div className="flex flex-col md:flex-row items-start md:items-center border-b border-gray-100 pb-4 mb-4">
+              <span className="text-sm font-bold text-gray-900 w-36 shrink-0 mb-3 md:mb-0">Main Category:</span>
+              <div className="flex flex-wrap gap-2">
+                <button
+                  onClick={() => handleL1Change('All')}
+                  className={`px-4 py-1.5 rounded-md text-sm font-medium transition-colors ${selectedL1Id === 'All' ? 'bg-amber-500 text-gray-900' : 'text-gray-600 hover:bg-amber-100 hover:text-amber-700'}`}
+                >
+                  All
+                </button>
+                {availableL1.map(cat => (
+                  <button
+                    key={cat.id}
+                    onClick={() => handleL1Change(cat.id)}
+                    className={`px-4 py-1.5 rounded-md text-sm font-medium transition-colors ${selectedL1Id === cat.id ? 'bg-amber-500 text-gray-900' : 'text-gray-600 hover:bg-amber-100 hover:text-amber-700'}`}
+                  >
+                    {cat.name} {/* 界面渲染依然是漂亮的文本 */}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {/* 第二级分类 */}
+            {selectedL1Id !== 'All' && availableL2.length > 0 && (
+              <div className="flex flex-col md:flex-row items-start md:items-center border-b border-gray-100 pb-4 mb-4">
+                <span className="text-sm font-bold text-gray-900 w-36 shrink-0 mb-3 md:mb-0">Sub Category:</span>
+                <div className="flex flex-wrap gap-2">
+                  <button
+                    onClick={() => handleL2Change('All')}
+                    className={`px-4 py-1.5 rounded-md text-sm font-medium transition-colors ${selectedL2Id === 'All' ? 'bg-amber-500 text-gray-900' : 'text-gray-600 hover:bg-amber-100 hover:text-amber-700'}`}
+                  >
+                    All
+                  </button>
+                  {availableL2.map(cat => (
+                    <button
+                      key={cat.id}
+                      onClick={() => handleL2Change(cat.id)}
+                      className={`px-4 py-1.5 rounded-md text-sm font-medium transition-colors ${selectedL2Id === cat.id ? 'bg-amber-500 text-gray-900' : 'text-gray-600 hover:bg-amber-100 hover:text-amber-700'}`}
+                    >
+                      {cat.name}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* 第三级分类 */}
+            {selectedL2Id !== 'All' && availableL3.length > 0 && (
+              <div className="flex flex-col md:flex-row items-start md:items-center">
+                <span className="text-sm font-bold text-gray-900 w-36 shrink-0 mb-3 md:mb-0">Product Type:</span>
+                <div className="flex flex-wrap gap-2">
+                  <button
+                    onClick={() => setSelectedL3Id('All')}
+                    className={`px-4 py-1.5 rounded-md text-sm font-medium transition-colors ${selectedL3Id === 'All' ? 'bg-amber-500 text-gray-900' : 'text-gray-600 hover:bg-amber-100 hover:text-amber-700'}`}
+                  >
+                    All
+                  </button>
+                  {availableL3.map(cat => (
+                    <button
+                      key={cat.id}
+                      onClick={() => setSelectedL3Id(cat.id)}
+                      className={`px-4 py-1.5 rounded-md text-sm font-medium transition-colors ${selectedL3Id === cat.id ? 'bg-amber-500 text-gray-900' : 'text-gray-600 hover:bg-amber-100 hover:text-amber-700'}`}
+                    >
+                      {cat.name}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+
           </div>
 
-          {/* ================= 3. 商品网格 (Product Grid) ================= */}
+          <div className="flex justify-between items-center mb-6 text-sm text-gray-500">
+            <div>Showing <span className="font-bold text-gray-900">{filteredProducts.length}</span> products</div>
+          </div>
+
+          {/* ================= 商品网格 ================= */}
           {filteredProducts.length > 0 ? (
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-              {filteredProducts.map(product => (
-                // 直接使用我们封装好的 ProductCard，代码瞬间清爽
-                <ProductCard key={product.id} product={product} />
-              ))}
+              {filteredProducts.map(product => {
+                // 关键一步：把 ID 翻译成 Name 后再传给卡片
+                const productWithCatName = {
+                  ...product,
+                  categoryName: categoryIdToName[product.category]
+                };
+                return <ProductCard key={product.id} product={productWithCatName} />
+              })}
             </div>
           ) : (
-            // 兜底设计：如果某个分类下没有商品，显示友好提示
-            <div className="text-center py-20">
-              <svg className="mx-auto h-12 w-12 text-gray-300 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4" /></svg>
-              <h3 className="text-lg font-medium text-gray-900">No products found</h3>
-              <p className="mt-1 text-gray-500">We are updating our catalog for this category.</p>
+            <div className="bg-white p-12 text-center rounded-xl border border-gray-200">
+              <h3 className="text-lg font-medium text-gray-900">No products match this category</h3>
+              <button onClick={() => handleL1Change('All')} className="mt-6 text-amber-600 font-bold hover:underline">
+                Clear Filters
+              </button>
             </div>
           )}
-
-          {/* ================= 4. 结果统计 ================= */}
-          <div className="text-center mt-12 text-gray-500 text-sm font-medium border-t border-gray-200 pt-8">
-            Showing {filteredProducts.length} {filteredProducts.length === 1 ? 'product' : 'products'}
-          </div>
 
         </div>
       </div>
@@ -106,15 +214,11 @@ export default function ProductList({ allProducts, categories }) {
   );
 }
 
-// ================= 构建时数据处理 =================
 export async function getStaticProps() {
-  // 从 JSON 中提取所有不重复的分类名称 (category)
-  const categories = [...new Set(products.map(p => p.category))];
-
   return {
     props: {
-      allProducts: products, // 传给页面的完整商品数据
-      categories,            // 传给页面的分类列表
+      allProducts: productsData,
+      categories: categoriesTree,
     },
   };
 }

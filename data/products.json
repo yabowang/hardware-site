@@ -1,13 +1,48 @@
 [
   {
-    "id": "hss-4241",
-    "name": "HSS-4241 Twist Drill",
-    "slug": "hss-4241",
-    "category": "Twist Drills",
+    "id": "hss-4241-2",
+    "name": "HSS-4241 Twist Drill Package",
+    "slug": "hss-4241-2",
+    "category": "c3-hss-4241-twist-drills",
     "description": "High-quality HSS twist drill bit, suitable for drilling sheet metal, copper, aluminum, wood, and plastic.",
     "specs": {
       "Material": "HSS-G (High-Speed Steel Ground) 4241",
-      "Size Range": "1.0mm - 13.0mm(Optional)",
+      "Size Range": "Optional",
+      "Point Angle": "135° Split Point",
+      "Shank Type": "Straight Shank",
+      "Flute Type": "Spiral / Twist Flute",
+      "Application": "Ideal for drilling sheet metal, copper, aluminum, wood, and plastic.",
+      "Applicable Machines": "Handheld drills, drill presses, milling machines, CNC machining centers.",
+      "Application Scenarios": "Ideal for auto repair, home improvement, and DIY projects."
+    },
+    "details_html": "<div style=\"font-family: Arial, sans-serif; line-height: 1.6; color: #333;\">\r\n\r\n  <h2 style=\"color: #0056b3; border-bottom: 2px solid #eee; padding-bottom: 5px;\">HSS 4241 Twist Drill Bits - Bright Finish (Uncoated)<\/h2>\r\n  <p><strong>The Cost-Effective Choice for General Purpose Drilling<\/strong><\/p>\r\n  <p>Our HSS 4241 Bright Finish drill bits deliver exceptional value for high-volume hardware distributors and general fabrication workshops. The uncoated, polished surface ensures a low friction coefficient, allowing for incredibly smooth chip evacuation.<\/p>\r\n  \r\n  <ul style=\"list-style-type: square; margin-bottom: 30px;\">\r\n    <li><strong>Smooth Chip Evacuation:<\/strong> The bright, polished flutes prevent materials from sticking to the bit, reducing the risk of clogging.<\/li>\r\n    <li><strong>Ideal Materials:<\/strong> Highly recommended for drilling softer materials such as <strong>aluminum, brass, copper, plastics, and wood<\/strong>.<\/li>\r\n    <li><strong>Economical & Reliable:<\/strong> Provides reliable daily performance at a highly competitive price point, making it a staple for any hardware inventory.<\/li>\r\n  <\/ul>\r\n\r\n  <h2 style=\"color: #e67e22; border-bottom: 2px solid #eee; padding-bottom: 5px; margin-top: 40px;\">HSS 4241 Twist Drill Bits - Titanium Coated (TiN)<\/h2>\r\n  <p><strong>Enhanced Wear Resistance with a Premium Finish<\/strong><\/p>\r\n  <p>Upgrade your drilling performance with Xiaoman Tools' Titanium-Coated (TiN) HSS 4241 drill bits. The distinct golden Titanium Nitride coating not only gives the tool a premium appearance but significantly increases surface hardness.<\/p>\r\n\r\n  <ul style=\"list-style-type: square; margin-bottom: 20px;\">\r\n    <li><strong>Increased Surface Hardness:<\/strong> The TiN coating adds a hard protective layer, extending the tool life and keeping the cutting edge sharper for a longer period compared to uncoated bits.<\/li>\r\n    <li><strong>Reduced Friction & Heat:<\/strong> The coating acts as a thermal barrier, reducing friction and heat build-up during drilling operations.<\/li>\r\n    <li><strong>Versatile Applications:<\/strong> Performs excellently on <strong>mild steel, iron, light alloys, and general composite materials<\/strong>.<\/li>\r\n  <\/ul>\r\n\r\n  <hr style=\"margin: 30px 0; border: 0; border-top: 1px dashed #ccc;\">\r\n  <p style=\"font-size: 0.9em; color: #666;\"><em>* Both variants are available in fully customizable packaging (plastic tubes, metal boxes, blister cards) tailored to your brand requirements.<\/em><\/p>\r\n\r\n<\/div>",
+    "images": [
+      "/images/products/hss-4241/4241-2.jpg",
+      "/images/products/hss-4241/4241-12.jpg",
+      "/images/products/hss-4241/4241-10.jpg",
+      "/images/products/hss-4241/4241-13.jpg",
+      "/images/products/hss-4241/4241-11.jpg"
+    ],
+    "detail_images": [
+      "/images/products/hss-4241/4241-14.jpg",
+      "/images/products/hss-4241/4241-7.jpg",
+      "/images/products/hss-4241/4241-8.jpg",
+      "/images/products/hss-4241/4241-4.jpg",
+      "/images/products/hss-4241/4241-5.jpg",
+      "/images/products/service.jpg"
+    ],
+    "seo_title": "Wholesale HSS Twist Drill Bits 4241 | Factory Direct",
+    "seo_desc": "Buy HSS Twist Drill Bits 4241 directly from Daoge Xiaoman Tools"
+  },
+  {
+    "id": "hss-4241-1",
+    "name": "HSS-4241 Twist Drill Package",
+    "slug": "hss-4241-1",
+    "category": "c3-hss-4241-twist-drills",
+    "description": "High-quality HSS twist drill bit, suitable for drilling sheet metal, copper, aluminum, wood, and plastic.",
+    "specs": {
+      "Material": "HSS-G (High-Speed Steel Ground) 4241",
+      "Size Range": "Optional",
       "Point Angle": "135° Split Point",
       "Shank Type": "Straight Shank",
       "Flute Type": "Spiral / Twist Flute",
@@ -18,31 +53,59 @@
     "details_html": "<div style=\"font-family: Arial, sans-serif; line-height: 1.6; color: #333;\">\r\n\r\n  <h2 style=\"color: #0056b3; border-bottom: 2px solid #eee; padding-bottom: 5px;\">Premium HSS 4241 Twist Drill Bits<\/h2>\r\n  <p><strong>High-Performance Drilling for Everyday Applications<\/strong><\/p>\r\n  <p>Manufactured for durability and efficiency, our HSS 4241 twist drill bits offer the perfect balance of reliable quality and exceptional cost-effectiveness for your hardware sourcing needs.<\/p>\r\n  \r\n  <h3 style=\"color: #444; margin-top: 20px;\">Why Choose Our 4241 Drill Bits?<\/h3>\r\n  <ul style=\"list-style-type: square; margin-bottom: 20px;\">\r\n    <li><strong>Exceptional Quality:<\/strong> Made from selected High-Speed Steel (HSS 4241), featuring high hardness, smooth chip removal, and excellent wear resistance for general-purpose drilling.<\/li>\r\n    <li><strong>Comprehensive Sizes:<\/strong> Available in a full range of diameters and lengths (both metric and imperial standards) to perfectly match your specific processing requirements.<\/li>\r\n    <li><strong>Customizable Packaging (OEM Supported):<\/strong> We provide flexible packaging solutions. From individual plastic tubes and blister cards to professional metal box sets, we can customize the packaging with your brand logo to enhance your market presence.<\/li>\r\n  <\/ul>\r\n\r\n  <h3 style=\"color: #444;\">Versatile Applications<\/h3>\r\n  <p>Ideal for general-purpose drilling. Highly efficient on <strong>wood, plastics, aluminum alloys, and thin mild steel<\/strong>. <br>\r\n  <em>*Note: For heavy-duty stainless steel or hard metal drilling, please inquire about our HSS-Co (M35) series.<\/em><\/p>\r\n\r\n<\/div>",
     "images": [
       "/images/products/hss-4241/4241-1.jpg",
-      "/images/products/hss-4241/4241-2.jpg",
-      "/images/products/hss-4241/4241-9.jpg",
-      "/images/products/hss-4241/4241-3.jpg"
+      "/images/products/hss-4241/4241-15.jpg",
+      "/images/products/hss-4241/4241-16.jpg"
     ],
     "detail_images": [
       "/images/products/hss-4241/4241-4.jpg",
       "/images/products/hss-4241/4241-5.jpg",
-      "/images/products/hss-4241/4241-6.jpg",
-      "/images/products/hss-4241/4241-7.jpg",
-      "/images/products/hss-4241/4241-8.jpg",
       "/images/products/service.jpg"
     ],
     "seo_title": "Wholesale HSS Twist Drill Bits 4241 | Factory Direct",
     "seo_desc": "Buy HSS Twist Drill Bits 4241 directly from Daoge Xiaoman Tools"
   },
   {
-    "id": "hss-6542",
-    "name": "HSS-M2(6542) Twist Drill",
-    "slug": "hss-6542",
-    "category": "Twist Drills",
+    "id": "hss-4241-3",
+    "name": "HSS-4241 Twist Drill Package",
+    "slug": "hss-4241-3",
+    "category": "c3-hss-4241-twist-drills",
+    "description": "High-quality HSS twist drill bit, suitable for drilling sheet metal, copper, aluminum, wood, and plastic.",
+    "specs": {
+      "Material": "HSS-G (High-Speed Steel Ground) 4241",
+      "Size Range": "Optional",
+      "Point Angle": "135° Split Point",
+      "Shank Type": "Straight Shank",
+      "Flute Type": "Spiral / Twist Flute",
+      "Application": "Ideal for drilling sheet metal, copper, aluminum, wood, and plastic.",
+      "Applicable Machines": "Handheld drills, drill presses, milling machines, CNC machining centers.",
+      "Application Scenarios": "Ideal for auto repair, home improvement, and DIY projects."
+    },
+    "details_html": "<div style=\"font-family: Arial, sans-serif; line-height: 1.6; color: #333;\">\r\n\r\n  <h2 style=\"color: #0056b3; border-bottom: 2px solid #eee; padding-bottom: 5px;\">Premium HSS 4241 Twist Drill Bits<\/h2>\r\n  <p><strong>High-Performance Drilling for Everyday Applications<\/strong><\/p>\r\n  <p>Manufactured for durability and efficiency, our HSS 4241 twist drill bits offer the perfect balance of reliable quality and exceptional cost-effectiveness for your hardware sourcing needs.<\/p>\r\n  \r\n  <h3 style=\"color: #444; margin-top: 20px;\">Why Choose Our 4241 Drill Bits?<\/h3>\r\n  <ul style=\"list-style-type: square; margin-bottom: 20px;\">\r\n    <li><strong>Exceptional Quality:<\/strong> Made from selected High-Speed Steel (HSS 4241), featuring high hardness, smooth chip removal, and excellent wear resistance for general-purpose drilling.<\/li>\r\n    <li><strong>Comprehensive Sizes:<\/strong> Available in a full range of diameters and lengths (both metric and imperial standards) to perfectly match your specific processing requirements.<\/li>\r\n    <li><strong>Customizable Packaging (OEM Supported):<\/strong> We provide flexible packaging solutions. From individual plastic tubes and blister cards to professional metal box sets, we can customize the packaging with your brand logo to enhance your market presence.<\/li>\r\n  <\/ul>\r\n\r\n  <h3 style=\"color: #444;\">Versatile Applications<\/h3>\r\n  <p>Ideal for general-purpose drilling. Highly efficient on <strong>wood, plastics, aluminum alloys, and thin mild steel<\/strong>. <br>\r\n  <em>*Note: For heavy-duty stainless steel or hard metal drilling, please inquire about our HSS-Co (M35) series.<\/em><\/p>\r\n\r\n<\/div>",
+    "images": [
+      "/images/products/hss-4241/4241-9.jpg",
+      "/images/products/hss-4241/4241-20.jpg",
+      "/images/products/hss-4241/4241-18.jpg",
+      "/images/products/hss-4241/4241-19.jpg"
+    ],
+    "detail_images": [
+      "/images/products/hss-4241/4241-4.jpg",
+      "/images/products/hss-4241/4241-5.jpg",
+      "/images/products/service.jpg"
+    ],
+    "seo_title": "Wholesale HSS Twist Drill Bits 4241 | Factory Direct",
+    "seo_desc": "Buy HSS Twist Drill Bits 4241 directly from Daoge Xiaoman Tools"
+  },
+  {
+    "id": "hss-6542-1",
+    "name": "HSS-M2(6542) Twist Drill Package",
+    "slug": "hss-6542-1",
+    "category": "c3-hss-m2-twist-drills",
     "description": "Manufactured from authentic HSS M2 (6542) steel, delivering outstanding wear resistance and extending tool life by up to 30% compared to standard bits.",
     "specs": {
       "Material": "HSS M2 / 6542 (High-Speed Steel M2)",
       "Process": "Fully Ground",
-      "Size Range": "1.0mm - 13.0mm(Optional)",
+      "Size Range": "Optional",
+      "Finish": "Bright",
       "Point Angle": "135° Split Point",
       "Structural Metals": "Angle irons, carbon steel frames, and shelving units.",
       "Construction & Plumbing": "Aluminum door/window profiles, copper pipes, and brass fittings.",
@@ -53,14 +116,10 @@
     "images": [
       "/images/products/hss-6542/6542-1.jpg",
       "/images/products/hss-6542/6542-3.jpg",
-      "/images/products/hss-6542/6542-7.jpg",
       "/images/products/hss-6542/6542-2.jpg"
     ],
     "detail_images": [
       "/images/products/hss-6542/6542-5.jpg",
-      "/images/products/hss-6542/6542-6.jpg",
-      "/images/products/hss-6542/6542-8.jpg",
-      "/images/products/hss-6542/6542-9.jpg",
       "/images/products/hss-6542/6542-10.jpg",
       "/images/products/service.jpg"
     ],
@@ -68,15 +127,47 @@
     "seo_desc": "Buy HSS Twist Drill Bits M2(6542) directly from Daoge Xiaoman Tools"
   },
   {
-    "id": "hss-M35",
-    "name": "HSS-Co M35 Twist Drill Bit",
-    "slug": "hss-M35",
-    "category": "Twist Drills",
+    "id": "hss-6542-2",
+    "name": "HSS-M2(6542) Twist Drill Package",
+    "slug": "hss-6542-2",
+    "category": "c3-hss-m2-twist-drills",
+    "description": "Manufactured from authentic HSS M2 (6542) steel, delivering outstanding wear resistance and extending tool life by up to 30% compared to standard bits.",
+    "specs": {
+      "Material": "HSS M2 / 6542 (High-Speed Steel M2)",
+      "Process": "Fully Ground",
+      "Size Range": "Optional",
+      "Finish": "Bright",
+      "Point Angle": "135° Split Point",
+      "Structural Metals": "Angle irons, carbon steel frames, and shelving units.",
+      "Construction & Plumbing": "Aluminum door/window profiles, copper pipes, and brass fittings.",
+      "Fully Ground Precision": "CNC fully ground design ensures sharp cutting edges and highly symmetrical flutes for fast, smooth, and friction-free drilling.",
+      "135° Split Point Design": "The 135-degree split point prevents walking on hard surfaces, requiring less feed pressure for quick penetration."
+    },
+    "details_html": "<div style=\"font-family: Arial, sans-serif; line-height: 1.6; color: #333;\">\r\n\r\n  <h2 style=\"color: #0056b3; border-bottom: 2px solid #eee; padding-bottom: 5px;\">Industrial Grade HSS M2 (6542) Twist Drill Bits<\/h2>\r\n  <p><strong>The Gold Standard for Professional Metalworking<\/strong><\/p>\r\n  <p>Step up to true industrial performance with Xiaoman Tools' HSS M2 (6542) twist drill bits. Engineered for durability, high heat resistance, and precise cutting, these drill bits are the reliable backbone for any serious manufacturing or fabrication demand.<\/p>\r\n  \r\n  <h3 style=\"color: #444; margin-top: 20px;\">Versatile Surface Finishes (Coatings)<\/h3>\r\n  <p>We understand that different markets require specific surface treatments. We manufacture and supply multiple finish options to match your exact applications:<\/p>\r\n  <ul style=\"list-style-type: square; margin-bottom: 20px;\">\r\n    <li><strong>Titanium Coated (TiN \/ Golden Finish):<\/strong> Features a premium golden nitride coating that significantly increases surface hardness, reduces friction, and extends tool life up to 3 times longer than standard bits.<\/li>\r\n    <li><strong>Bright Finish (Uncoated \/ White):<\/strong> Polished, smooth surface design. Ideal for maximizing chip flow and preventing material build-up when drilling aluminum, plastics, and softer metals.<\/li>\r\n    <li><strong>Black Oxide:<\/strong> A classic industrial finish offering enhanced corrosion resistance and excellent cutting fluid retention.<\/li>\r\n  <\/ul>\r\n\r\n  <h3 style=\"color: #444;\">Comprehensive Sizes & Premium Quality<\/h3>\r\n  <ul style=\"list-style-type: square; margin-bottom: 20px;\">\r\n    <li><strong>Full Range of Specifications:<\/strong> Available in all standard metric and imperial sizes, including fractional, wire gauge, and letter sizes. We deliver precise dimensions to meet global industrial standards.<\/li>\r\n    <li><strong>Strict Quality Control:<\/strong> Every batch undergoes rigorous inspection for concentricity, hardness, and edge sharpness to guarantee consistent, wobble-free drilling performance.<\/li>\r\n  <\/ul>\r\n\r\n  <h3 style=\"color: #444;\">Rich Packaging & OEM Solutions<\/h3>\r\n  <p>Stand out in your local market with our comprehensive packaging solutions. Whether you are supplying hardware distributors or industrial end-users, we provide:<\/p>\r\n  <ul style=\"list-style-type: square; margin-bottom: 20px;\">\r\n    <li>Individual PVC pouches and sturdy plastic tubes.<\/li>\r\n    <li>Retail-ready blister cards.<\/li>\r\n    <li>Professional multi-piece metal index cases (e.g., 13pcs, 19pcs, 25pcs sets).<\/li>\r\n    <li><strong>Full OEM\/ODM Support:<\/strong> We offer custom laser engraving on the drill shanks and custom logo printing on all packaging to elevate your brand presence.<\/li>\r\n  <\/ul>\r\n\r\n<\/div>",
+    "images": [
+      "/images/products/hss-6542/6542-7.jpg",
+      "/images/products/hss-6542/6542-11.jpg",
+      "/images/products/hss-6542/6542-8.jpg",
+      "/images/products/hss-6542/6542-6.jpg"
+    ],
+    "detail_images": [
+      "/images/products/hss-6542/6542-5.jpg",
+      "/images/products/hss-6542/6542-10.jpg",
+      "/images/products/service.jpg"
+    ],
+    "seo_title": "Wholesale HSS Twist Drill Bits M2(6542) | Factory Direct",
+    "seo_desc": "Buy HSS Twist Drill Bits M2(6542) directly from Daoge Xiaoman Tools"
+  },
+  {
+    "id": "hss-co-1",
+    "name": "HSS-Co M35-M42 Twist Drill Bit",
+    "slug": "hss-co-1",
+    "category": "c3-hss-co-twist-drills",
     "description": "Industrial Grade HSS-Co M35 Cobalt Twist Drill Bit (DIN 338) - 135° Split Point for Stainless Steel & Inox",
     "specs": {
-      "Material": "HSS-Co M35 (5% Cobalt Alloyed)",
+      "Material": "HSS-Co M35-M42",
       "Process": "CNC Fully Ground",
-      "Size Range": "1.0mm - 13.0mm(Optional)",
+      "Size Range": "Optional",
       "Point Angle": "135° Split Point",
       "Stainless Steel Killer": "Optimized specifically for drilling 304/316 stainless steel (Inox) and other hard-to-machine metals.",
       "Superior Heat Resistance": "The 5% cobalt content allows the drill bit to withstand high-speed drilling temperatures without losing its sharp edge.",
@@ -84,10 +175,10 @@
       "Cost-Effective Durability": "Outlasts standard HSS M2 bits by up to 3-5 times when drilling hard alloys, significantly lowering your cost-per-hole.",
       "IMPORTANT": "TCeramic tiles, concrete, wall surfaces, and stone materials are prohibited!"
     },
-    "details_html": "<div style=\"font-family: Arial, sans-serif; line-height: 1.6; color: #333;\">\r\n\r\n  <h2 style=\"color: #0056b3; border-bottom: 2px solid #eee; padding-bottom: 5px;\">Top-Tier HSS-Co M35 Cobalt Twist Drill Bits<\/h2>\r\n  <p><strong>The Ultimate Solution for Stainless Steel and Hard Metals<\/strong><\/p>\r\n  <p>Engineered with a 5% cobalt alloy, our M35 twist drill bits deliver extraordinary heat resistance and red hardness. When standard drill bits fail or burn out, Xiaoman Tools' M35 series powers through the toughest industrial applications.<\/p>\r\n  \r\n  <h3 style=\"color: #444; margin-top: 20px;\">Why Upgrade to Our M35 Cobalt Bits?<\/h3>\r\n  <ul style=\"list-style-type: square; margin-bottom: 20px;\">\r\n    <li><strong>Extreme Heat Resistance (5% Cobalt):<\/strong> The M35 cobalt-infused steel maintains its sharp cutting edge at much higher temperatures than standard HSS, drastically reducing tool wear when machining hard materials.<\/li>\r\n    <li><strong>Precision 135-Degree Split Point:<\/strong> Designed to prevent \"walking\" on the material surface, ensuring instant, accurate drilling with less force required.<\/li>\r\n    <li><strong>OEM Branding & Custom Packaging:<\/strong> Build your brand with us. We offer fully customizable packaging options, including professional metal index boxes, blister packs, and premium plastic tubes, all proudly displaying your logo.<\/li>\r\n    <li><strong>Premium Quality & After-Sales Guarantee:<\/strong> At Xiaoman Tools, your satisfaction is our priority. We provide strict pre-shipment quality control, dedicated technical support, and a responsive after-sales policy to protect your investment.<\/li>\r\n  <\/ul>\r\n\r\n  <h3 style=\"color: #444;\">Expert Applications<\/h3>\r\n  <p>Specifically designed for drilling hard, tough, and abrasive materials. Exceptional performance on <strong>Stainless Steel (304\/316), Titanium Alloys, Cast Iron, and High-Tensile Steels<\/strong>.<\/p>\r\n\r\n<\/div>",
+    "details_html": "<div style=\"font-family: Arial, sans-serif; line-height: 1.6; color: #333;\">\r\n\r\n  <h2 style=\"color: #0056b3; border-bottom: 2px solid #eee; padding-bottom: 5px;\">Premium HSS-Co M35 & M42 Cobalt Twist Drill Bits<\/h2>\r\n  <p><strong>The Ultimate Drilling Solution for Stainless Steel and Hard Alloys<\/strong><\/p>\r\n  <p>When standard high-speed steel fails, Xiaoman Tools' Cobalt series steps in. Engineered with a premium 5% (M35) or 8% (M42) cobalt alloy, these drill bits deliver extraordinary \"red hardness\" and thermal stability. They are purpose-built to cut through the most abrasive and tough materials in heavy industrial applications.<\/p>\r\n  \r\n  <h3 style=\"color: #444; margin-top: 20px;\">Why Choose Our Cobalt Drill Bits?<\/h3>\r\n  <ul style=\"list-style-type: square; margin-bottom: 20px;\">\r\n    <li><strong>Extreme Heat Resistance:<\/strong> The high cobalt content allows the drill bit to withstand extreme drilling temperatures without losing its sharp cutting edge, drastically reducing tool wear.<\/li>\r\n    <li><strong>Classic Amber Finish:<\/strong> The distinctive baked yellow\/amber finish is a result of our specialized heat-treatment process, providing excellent lubricity and extended tool life.<\/li>\r\n    <li><strong>Precision 135\u00B0 Split Point:<\/strong> Designed to prevent \"walking\" or wandering on the material surface. It requires less feed pressure and ensures instant, self-centering penetration.<\/li>\r\n  <\/ul>\r\n\r\n  <h3 style=\"color: #444;\">Comprehensive Sizes & OEM Packaging<\/h3>\r\n  <p>We supply a complete range of specifications to meet the diverse demands of your local market:<\/p>\r\n  <ul style=\"list-style-type: square; margin-bottom: 20px;\">\r\n    <li><strong>Full Size Range:<\/strong> Available in metric (1.0mm - 20.0mm) and all equivalent imperial sizes.<\/li>\r\n    <li><strong>Tailored Packaging Options:<\/strong> Build your brand with our premium packaging. We offer individual PVC pouches, high-quality plastic tubes, blister cards for retail, and professional metal index sets (13pcs, 19pcs, 25pcs).<\/li>\r\n    <li><strong>Custom Branding:<\/strong> We support custom laser engraving of your logo and size specifications directly on the drill shank, ensuring brand visibility on every tool.<\/li>\r\n  <\/ul>\r\n\r\n  <h3 style=\"color: #444;\">Target Applications<\/h3>\r\n  <p>Highly recommended for professional machining of <strong>Stainless Steel (304\/316), Titanium Alloys, Cast Iron, Hardened Steel, and Aerospace Alloys<\/strong>.<\/p>\r\n\r\n<\/div>",
     "images": [
-      "/images/products/hss-m35/co-1.jpg",
       "/images/products/hss-m35/co-2.jpg",
+      "/images/products/hss-m35/co-1.jpg",
       "/images/products/hss-m35/co-3.jpg",
       "/images/products/hss-m35/co-4.jpg"
     ],
@@ -105,7 +196,7 @@
     "id": "carbide-drills-coolant",
     "name": "Through-Coolant Solid Carbide Drill Bit",
     "slug": "carbide-drills-coolant",
-    "category": "Twist Drills",
+    "category": "c3-through-coolant-carbide-drills",
     "description": "High-Performance Solid Carbide Drill Bit with Through-Coolant (3xD / 5xD / 8xD)",
     "specs": {
       "Material": "Micro-grain Solid Tungsten Carbide",
@@ -120,6 +211,7 @@
       "Flawless Chip Evacuation": "The high-pressure coolant forcefully flushes chips out of the flutes instantly, completely eliminating chip packing and the risk of drill breakage in deep blind holes.",
       "Higher Feed & Speed Rates": "Achieves up to 2-3 times the penetration rate of external-coolant carbide drills, drastically reducing cycle times."
     },
+    "details_html": "<div style=\"font-family: Arial, sans-serif; line-height: 1.6; color: #333;\">\r\n\r\n  <h2 style=\"color: #0056b3; border-bottom: 2px solid #eee; padding-bottom: 5px;\">Advanced Solid Carbide Through-Coolant Drills<\/h2>\r\n  <p><strong>Unleash the Full Potential of Your CNC Machining Centers<\/strong><\/p>\r\n  <p>Engineered for high-speed and high-feed drilling, Xiaoman Tools' advanced solid carbide through-coolant drill bits are the ultimate solution for demanding manufacturing environments. By delivering high-pressure cutting fluid directly to the cutting zone, these tools eliminate heat build-up and guarantee flawless chip evacuation even in deep-hole applications.<\/p>\r\n  \r\n  <h3 style=\"color: #444; margin-top: 20px;\">Key Technical Innovations<\/h3>\r\n  <ul style=\"list-style-type: square; margin-bottom: 20px;\">\r\n    <li><strong>Dual Internal Coolant Channels:<\/strong> Forces coolant straight to the drill tip. This critical feature flushes out chips instantly, prevents material from welding to the edge, and ensures excellent hole finish.<\/li>\r\n    <li><strong>High-Performance Nano-Coating:<\/strong> The distinct bronze\/copper colored AlTiN\/TiAlN nano-coating provides extreme thermal stability and oxidation resistance, allowing for significantly higher cutting speeds and extending tool life.<\/li>\r\n    <li><strong>Micro-Grain Solid Tungsten Carbide:<\/strong> Built from premium ultra-fine grain carbide substrate, offering the perfect combination of supreme hardness and vital toughness to resist chipping under heavy CNC loads.<\/li>\r\n    <li><strong>Precision Self-Centering Geometry:<\/strong> The optimized point angle and specialized web thinning eliminate the need for center drilling, ensuring accurate hole positioning from the very first touch.<\/li>\r\n  <\/ul>\r\n\r\n  <h3 style=\"color: #444;\">OEM Packaging & Brand Customization<\/h3>\r\n  <p>As a professional supplier, we offer flexible OEM solutions to help you build your brand locally:<\/p>\r\n  <ul style=\"list-style-type: square; margin-bottom: 20px;\">\r\n    <li>Custom laser etching of your logo and specifications on the drill shank.<\/li>\r\n    <li>Premium individual plastic tubes with secure end-caps to prevent transit damage.<\/li>\r\n    <li>Customized labeling with your brand's barcode and product details.<\/li>\r\n  <\/ul>\r\n\r\n  <h3 style=\"color: #444;\">Target Applications<\/h3>\r\n  <p>Designed for mass production efficiency. Excels in machining <strong>Carbon Steel, Alloy Steel, Cast Iron, Tool Steel, and Stainless Steel<\/strong>. Available in various depth ratios including 3xD, 5xD, and 8xD.<\/p>\r\n\r\n<\/div>",
     "images": [
       "/images/products/carbide-drills-coolant/soild-5.jpg",
       "/images/products/carbide-drills-coolant/soild-1.jpg",
