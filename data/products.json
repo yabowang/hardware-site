@@ -193,15 +193,47 @@
     "seo_desc": "Buy HSS Twist Drill Bits M2(6542) directly from Daoge Xiaoman Tools"
   },
   {
-    "id": "carbide-drills-coolant",
+    "id": "hss-co-2",
+    "name": "HSS-Co M35-M42 Twist Drill Bit Package",
+    "slug": "hss-co-2",
+    "category": "c3-hss-co-twist-drills",
+    "description": "Industrial Grade HSS-Co M35 Cobalt Twist Drill Bit (DIN 338) - 135° Split Point for Stainless Steel & Inox",
+    "specs": {
+      "Material": "HSS-Co M35-M42",
+      "Process": "CNC Fully Ground",
+      "Size Range": "Optional",
+      "Point Angle": "135° Split Point",
+      "Stainless Steel Killer": "Optimized specifically for drilling 304/316 stainless steel (Inox) and other hard-to-machine metals.",
+      "Superior Heat Resistance": "The 5% cobalt content allows the drill bit to withstand high-speed drilling temperatures without losing its sharp edge.",
+      "No Walking, Fast Penetration": "The 135° split point self-centers immediately upon contact, requiring less feed pressure and reducing operator fatigue.",
+      "Cost-Effective Durability": "Outlasts standard HSS M2 bits by up to 3-5 times when drilling hard alloys, significantly lowering your cost-per-hole.",
+      "IMPORTANT": "TCeramic tiles, concrete, wall surfaces, and stone materials are prohibited!"
+    },
+    "details_html": "<div style=\"font-family: Arial, sans-serif; line-height: 1.6; color: #333;\">\r\n\r\n  <h2 style=\"color: #0056b3; border-bottom: 2px solid #eee; padding-bottom: 5px;\">Premium HSS-Co (Cobalt) Drill Bit Sets<\/h2>\r\n  <p><strong>The Ultimate Multi-Piece Kit for Heavy-Duty Metalworking<\/strong><\/p>\r\n  <p>Equip your customers with the complete solution. Xiaoman Tools' HSS-Co drill bit sets combine the extreme cutting power of cobalt steel with the ultimate convenience of a rugged organizational case. Perfect for professional workshops, construction sites, and demanding DIYers who need the right size instantly.<\/p>\r\n  \r\n  <h3 style=\"color: #444; margin-top: 20px;\">Why Stock Our Boxed Sets?<\/h3>\r\n  <ul style=\"list-style-type: square; margin-bottom: 20px;\">\r\n    <li><strong>Organized Efficiency:<\/strong> Housed in a durable, shock-resistant index case (cassette). Each slot is clearly marked with the exact diameter, ensuring quick selection and preventing lost tools.<\/li>\r\n    <li><strong>Uncompromising Cobalt Power:<\/strong> Made from premium HSS-Co (M35\/M42) alloy. These fully ground bits effortlessly penetrate tough materials like stainless steel, cast iron, and high-temperature alloys without burning out.<\/li>\r\n    <li><strong>Precision 135\u00B0 Split Point:<\/strong> Engineered for immediate, self-centering drilling. No center punch required, minimizing wandering on hard, curved surfaces.<\/li>\r\n  <\/ul>\r\n\r\n  <h3 style=\"color: #444;\">Popular Set Configurations & OEM Support<\/h3>\r\n  <p>We supply a variety of set configurations to match your market's specific demands. Our most popular options include:<\/p>\r\n  <ul style=\"list-style-type: square; margin-bottom: 20px;\">\r\n    <li><strong>19-Piece Metric Set:<\/strong> 1.0mm to 10.0mm in 0.5mm increments.<\/li>\r\n    <li><strong>25-Piece Metric Set:<\/strong> 1.0mm to 13.0mm in 0.5mm increments.<\/li>\r\n    <li><strong>Fractional \/ Imperial Sets:<\/strong> 21-Piece, 29-Piece, and more.<\/li>\r\n    <li><strong>Retail-Ready Customization (OEM):<\/strong> We provide custom logo printing on the outer case, customized color schemes for the plastic index, and tailored outer sleeve packaging to make your brand stand out on the retail shelf.<\/li>\r\n  <\/ul>\r\n\r\n<\/div>",
+    "images": [
+      "/images/products/hss-m35/co-11.jpg",
+      "/images/products/hss-m35/co-12.jpg",
+      "/images/products/hss-m35/co-13.jpg"
+    ],
+    "detail_images": [
+      "/images/products/hss-m35/co-5.jpg",
+      "/images/products/hss-m35/co-9.jpg",
+      "/images/products/hss-m35/co-10.jpg",
+      "/images/products/hss-m35/co-8.jpg",
+      "/images/products/service.jpg"
+    ],
+    "seo_title": "Wholesale HSS Twist Drill Bits M2(6542) | Factory Direct",
+    "seo_desc": "Buy HSS Twist Drill Bits M2(6542) directly from Daoge Xiaoman Tools"
+  },
+  {
+    "id": "carbide-drills-coolant-1",
     "name": "Through-Coolant Solid Carbide Drill Bit",
-    "slug": "carbide-drills-coolant",
+    "slug": "carbide-drills-coolant-1",
     "category": "c3-through-coolant-carbide-drills",
     "description": "High-Performance Solid Carbide Drill Bit with Through-Coolant (3xD / 5xD / 8xD)",
     "specs": {
       "Material": "Micro-grain Solid Tungsten Carbide",
       "Cooling System": "Internal Through-Coolant / Spiral Coolant Holes",
-      "Size Range": "1.0mm - 12.0mm",
       "Point Angle": "135° / 140°",
       "Drilling Depth": "3xD / 5xD / 8xD",
       "Advanced Coating": "TiAlN / AlTiN Nano-coating",
@@ -228,5 +260,37 @@
     ],
     "seo_title": "Wholesale HSS Twist Drill Bits carbide-drills | Factory Direct",
     "seo_desc": "Buy HSS Twist Drill Bits carbide-drills directly from Daoge Xiaoman Tools"
+  },
+  {
+    "id": "reduced-shank-1",
+    "name": "Reduced Shank Drill Bits",
+    "slug": "reduced-shank-1",
+    "category": "c3-reduced-shank-drills",
+    "description": "Reduced Shank Drill Bit HSS Black Oxide Twist Drill Bit Straight Shank",
+    "specs": {
+      "Material": "High speed steel",
+      "Shank type": "Parallel shank/straight shank",
+      "Process": "Fully Ground by high precision CNC Numerical Control machine and strict heat treatment",
+      "Surface Finish": "Bright Finish,Black Oxide,Polished",
+      "Coating": "TiN TiAlN TiCN Black Oxide Uncoated",
+      "Usage": "Drilling holes in stainless steel, wood, plastic",
+      "Application": "Stainless steel, aluminum, copper, steel and other metal"
+    },
+    "details_html": "<div style=\"font-family: Arial, sans-serif; line-height: 1.6; color: #333;\">\r\n\r\n  <h2 style=\"color: #0056b3; border-bottom: 2px solid #eee; padding-bottom: 5px;\">Heavy-Duty HSS Reduced Shank Drill Bits (Silver & Deming)<\/h2>\r\n  \r\n  <p><strong>Expand Your Drilling Capacity with Standard Chucks<\/strong><\/p>\r\n  <p>Xiaoman Tools' Reduced Shank Drill Bits (also known as Silver & Deming drills) are the perfect solution for drilling large-diameter holes using standard 1\/2-inch (13mm) drill chucks. Designed for heavy-duty applications, these bits expand the capability of your portable drills and drill presses without the need for specialized heavy machinery.<\/p>\r\n  \r\n  <h3 style=\"color: #444; margin-top: 20px;\">Key Features & Advantages<\/h3>\r\n  <ul style=\"list-style-type: square; margin-bottom: 20px;\">\r\n    <li><strong>Universal 1\/2\" Reduced Shank:<\/strong> The precisely machined 1\/2-inch (12.7mm) or 13mm round shank fits perfectly into all standard drill chucks, offering secure gripping power and preventing slippage during heavy-torque applications.<\/li>\r\n    <li><strong>Premium Black Oxide Finish:<\/strong> The industrial black oxide surface treatment effectively retains cutting fluids, reduces friction, and provides excellent corrosion and rust resistance.<\/li>\r\n    <li><strong>Industrial Grade HSS Material:<\/strong> Available in HSS 4241 for economical general-purpose use, or HSS M2 (6542) for prolonged life and increased wear resistance on harder metals.<\/li>\r\n    <li><strong>Precision Cutting Edge:<\/strong> Engineered with a 135-degree split point (or 118-degree standard point upon request) to ensure quick penetration and reduce \"walking\" on the workpiece.<\/li>\r\n  <\/ul>\r\n\r\n  <h3 style=\"color: #444;\">Quick Specifications<\/h3>\r\n  <table style=\"width: 100%; border-collapse: collapse; margin-bottom: 20px; font-size: 0.95em;\">\r\n    <tbody>\r\n      <tr style=\"background-color: #f9f9f9;\">\r\n        <td style=\"padding: 10px; border: 1px solid #ddd;\"><strong>Material:<\/strong><\/td>\r\n        <td style=\"padding: 10px; border: 1px solid #ddd;\">HSS 4241 \/ HSS M2 (6542) \/ HSS-Co M35<\/td>\r\n      <\/tr>\r\n      <tr>\r\n        <td style=\"padding: 10px; border: 1px solid #ddd;\"><strong>Surface Finish:<\/strong><\/td>\r\n        <td style=\"padding: 10px; border: 1px solid #ddd;\">Black Oxide (Standard) \/ Bright \/ Titanium Coated<\/td>\r\n      <\/tr>\r\n      <tr style=\"background-color: #f9f9f9;\">\r\n        <td style=\"padding: 10px; border: 1px solid #ddd;\"><strong>Shank Diameter:<\/strong><\/td>\r\n        <td style=\"padding: 10px; border: 1px solid #ddd;\">1\/2 Inch (12.7mm) or 13mm<\/td>\r\n      <\/tr>\r\n      <tr>\r\n        <td style=\"padding: 10px; border: 1px solid #ddd;\"><strong>Cutting Diameter:<\/strong><\/td>\r\n        <td style=\"padding: 10px; border: 1px solid #ddd;\">14mm - 32mm (Metric) \/ 9\/16\" - 1-1\/2\" (Imperial)<\/td>\r\n      <\/tr>\r\n      <tr style=\"background-color: #f9f9f9;\">\r\n        <td style=\"padding: 10px; border: 1px solid #ddd;\"><strong>Packaging:<\/strong><\/td>\r\n        <td style=\"padding: 10px; border: 1px solid #ddd;\">Individual plastic tubes, wooden boxes, or multi-piece OEM sets.<\/td>\r\n      <\/tr>\r\n    <\/tbody>\r\n  <\/table>\r\n\r\n  <h3 style=\"color: #444;\">Typical Applications<\/h3>\r\n  <p>Widely used in construction, automotive repair, structural steel fabrication, and maintenance workshops. Suitable for drilling <strong>mild steel, cast iron, aluminum, brass, plastics, and wood<\/strong>.<\/p>\r\n\r\n<\/div>",
+    "images": [
+      "/images/products/reduced-shank/rs-1.jpg",
+      "/images/products/reduced-shank/rs-2.jpg",
+      "/images/products/reduced-shank/rs-3.jpg",
+      "/images/products/reduced-shank/rs-4.jpg"
+    ],
+    "detail_images": [
+      "/images/products/reduced-shank/rs-5.jpg",
+      "/images/products/reduced-shank/rs-6.jpg",
+      "/images/products/reduced-shank/rs-7.jpg",
+      "/images/products/reduced-shank/rs-8.jpg",
+      "/images/products/service.jpg"
+    ],
+    "seo_title": "Wholesale HSS Twist Drill Bits Reduced Shank Straight Shank | Factory Direct",
+    "seo_desc": "Buy HSS Twist Drill Bits Reduced Shank Straight Shank directly from Daoge Xiaoman Tools"
   }
 ]

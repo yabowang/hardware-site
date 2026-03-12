@@ -241,5 +241,69 @@
                 ]
             }
         ]
+    },
+    {
+        "id": "c1-threading-tools",
+        "name": "Threading Tools",
+        "zh_name": "螺纹刀具 (攻丝与挑丝)",
+        "children": [
+            {
+                "id": "c2-hss-taps",
+                "name": "HSS / HSS-Co Taps",
+                "zh_name": "高速钢/含钴丝锥 (最畅销的主力)",
+                "children": [
+                    {
+                        "id": "c3-spiral-flute-taps",
+                        "name": "Spiral Flute Taps",
+                        "zh_name": "螺旋槽丝锥 (向上排屑，专攻盲孔)",
+                        "children": []
+                    },
+                    {
+                        "id": "c3-spiral-point-taps",
+                        "name": "Spiral Point Taps",
+                        "zh_name": "先端丝锥 (向下排屑，专攻通孔)",
+                        "children": []
+                    },
+                    {
+                        "id": "c3-straight-flute-taps",
+                        "name": "Straight Flute Taps",
+                        "zh_name": "直槽丝锥 (手攻或加工铸铁碎屑)",
+                        "children": []
+                    },
+                    {
+                        "id": "c3-forming-taps",
+                        "name": "Forming Taps / Roll Taps",
+                        "zh_name": "挤压丝锥 (无屑攻丝，加工铝/铜)",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "id": "c2-solid-carbide-taps",
+                "name": "Solid Carbide Taps",
+                "zh_name": "整体硬质合金丝锥 (钨钢丝锥，加工高硬度钢)",
+                "children": [
+                    {
+                        "id": "c3-carbide-straight-taps",
+                        "name": "Carbide Straight Flute Taps",
+                        "zh_name": "钨钢直槽丝锥",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "id": "c2-threading-dies",
+                "name": "Threading Dies",
+                "zh_name": "板牙 (加工外螺纹)",
+                "children": [
+                    {
+                        "id": "c3-round-dies",
+                        "name": "Round Threading Dies",
+                        "zh_name": "圆板牙",
+                        "children": []
+                    }
+                ]
+            }
+        ]
     }
 ]
