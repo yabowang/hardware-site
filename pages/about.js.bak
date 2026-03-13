@@ -50,9 +50,40 @@ export default function About() {
           </div>
 
           {/* ================= 预留的工厂/视频展示区 ================= */}
-          {/* <div className="mb-20 bg-gray-50 rounded-2xl p-8 border border-gray-100">
-           
-          </div> */}
+          <div className="mb-20 bg-gray-50 rounded-2xl p-8 border border-gray-100">
+            <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Our Capabilities & QC Facilities</h3>
+            <p className="text-center text-gray-600 mb-8 max-w-2xl mx-auto">
+              Take a closer look at our rigorous quality control processes and the advanced manufacturing capabilities we leverage to guarantee your product's excellence.
+            </p>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              {/* 占位位 1: 视频或大图 */}
+              <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden h-64 flex flex-col items-center justify-center relative group">
+                {/* 未来这里放入 <video> 或 <img> 标签 */}
+                <span className="text-gray-400 font-medium z-10 group-hover:text-blue-500 transition-colors">
+                  [ Insert Video or Facility Image Here ]
+                </span>
+                <p className="text-sm text-gray-400 mt-2 z-10">
+                  e.g., CNC Machine in Operation / Quality Control Process
+                </p>
+                {/* 临时占位背景 */}
+                <div className="absolute inset-0 bg-gray-100/50"></div>
+              </div>
+
+              {/* 占位位 2: 另一张图片，例如打包、仓库、或产品细节图 */}
+              <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden h-64 flex flex-col items-center justify-center relative group">
+                {/* 未来这里放入 <img> 标签 */}
+                <span className="text-gray-400 font-medium z-10 group-hover:text-blue-500 transition-colors">
+                  [ Insert Warehouse/Packaging Image Here ]
+                </span>
+                <p className="text-sm text-gray-400 mt-2 z-10">
+                  e.g., Safe Packaging / Cargo Consolidation
+                </p>
+                {/* 临时占位背景 */}
+                <div className="absolute inset-0 bg-gray-100/50"></div>
+              </div>
+            </div>
+          </div>
           {/* ================= End 预留展示区 ================= */}
 
 
