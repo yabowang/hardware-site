@@ -2,55 +2,91 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.xiaomantools.com</loc>
-    <lastmod>2026-03-11T09:18:01.085Z</lastmod>
+    <lastmod>2026-03-12T08:53:32.874Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.xiaomantools.com/products</loc>
-    <lastmod>2026-03-11T09:18:01.086Z</lastmod>
+    <lastmod>2026-03-12T08:53:32.875Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.xiaomantools.com/about</loc>
-    <lastmod>2026-03-11T09:18:01.086Z</lastmod>
+    <lastmod>2026-03-12T08:53:32.875Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.xiaomantools.com/contact</loc>
-    <lastmod>2026-03-11T09:18:01.086Z</lastmod>
+    <lastmod>2026-03-12T08:53:32.875Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.xiaomantools.com/blog</loc>
-    <lastmod>2026-03-11T09:18:01.086Z</lastmod>
+    <lastmod>2026-03-12T08:53:32.875Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.xiaomantools.com/products/hss-4241</loc>
-    <lastmod>2026-03-11T09:18:01.086Z</lastmod>
+    <loc>https://www.xiaomantools.com/products/hss-4241-2</loc>
+    <lastmod>2026-03-12T08:53:32.875Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.xiaomantools.com/products/hss-6542</loc>
-    <lastmod>2026-03-11T09:18:01.086Z</lastmod>
+    <loc>https://www.xiaomantools.com/products/hss-4241-1</loc>
+    <lastmod>2026-03-12T08:53:32.875Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.xiaomantools.com/products/hss-M35</loc>
-    <lastmod>2026-03-11T09:18:01.086Z</lastmod>
+    <loc>https://www.xiaomantools.com/products/hss-4241-3</loc>
+    <lastmod>2026-03-12T08:53:32.875Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.xiaomantools.com/products/carbide-drills-coolant</loc>
-    <lastmod>2026-03-11T09:18:01.086Z</lastmod>
+    <loc>https://www.xiaomantools.com/products/hss-4241-4</loc>
+    <lastmod>2026-03-12T08:53:32.875Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.xiaomantools.com/products/hss-6542-1</loc>
+    <lastmod>2026-03-12T08:53:32.875Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.xiaomantools.com/products/hss-6542-2</loc>
+    <lastmod>2026-03-12T08:53:32.875Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.xiaomantools.com/products/hss-co-1</loc>
+    <lastmod>2026-03-12T08:53:32.875Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.xiaomantools.com/products/hss-co-2</loc>
+    <lastmod>2026-03-12T08:53:32.875Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.xiaomantools.com/products/carbide-drills-coolant-1</loc>
+    <lastmod>2026-03-12T08:53:32.875Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.xiaomantools.com/products/reduced-shank-1</loc>
+    <lastmod>2026-03-12T08:53:32.875Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

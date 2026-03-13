@@ -135,6 +135,106 @@
                         "children": []
                     }
                 ]
+            },
+            {
+                "id": "c2-masonry-construction-drills",
+                "name": "Masonry & Construction Drills",
+                "zh_name": "建筑与石工钻头 (打混凝土/瓷砖/玻璃)",
+                "children": [
+                    {
+                        "id": "c3-sds-hammer-drills",
+                        "name": "SDS Rotary Hammer Drill Bits",
+                        "zh_name": "电锤钻头 (SDS-Plus / SDS-Max柄, 打混凝土)",
+                        "children": []
+                    },
+                    {
+                        "id": "c3-multi-purpose-drills",
+                        "name": "Multi-Purpose Drill Bits",
+                        "zh_name": "多功能钻头 / 霸王钻 (十字/一字合金头, 万能钻)",
+                        "children": []
+                    },
+                    {
+                        "id": "c3-glass-tile-drills",
+                        "name": "Glass & Ceramic Tile Drill Bits",
+                        "zh_name": "玻璃与瓷砖钻头 / 三角钻 (矛头形状)",
+                        "children": []
+                    },
+                    {
+                        "id": "c3-masonry-drills",
+                        "name": "Standard Masonry Drill Bits",
+                        "zh_name": "普通建工钻 (圆柄，打红砖/水泥墙)",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "id": "c2-step-countersink-drills",
+                "name": "Step & Countersink Drills",
+                "zh_name": "阶梯钻与倒角钻 (五金店/电工爆款)",
+                "children": [
+                    {
+                        "id": "c3-step-drill-bits",
+                        "name": "Step Drill Bits",
+                        "zh_name": "阶梯钻 / 宝塔钻 (薄板扩孔神器)",
+                        "children": []
+                    },
+                    {
+                        "id": "c3-countersink-bits",
+                        "name": "Countersink & Deburring Bits",
+                        "zh_name": "倒角钻 / 沉头钻 / 去毛刺钻头",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "id": "c2-hole-saws",
+                "name": "Hole Saws & Core Drills",
+                "zh_name": "开孔器 (水电装修刚需，消耗量巨大)",
+                "children": [
+                    {
+                        "id": "c3-bimetal-hole-saws",
+                        "name": "Bi-Metal Hole Saws",
+                        "zh_name": "双金属开孔器 (木材/石膏板/薄金属)",
+                        "children": []
+                    },
+                    {
+                        "id": "c3-tct-hole-saws",
+                        "name": "TCT Hole Saws",
+                        "zh_name": "硬质合金开孔器 (专打不锈钢/厚钢板)",
+                        "children": []
+                    },
+                    {
+                        "id": "c3-diamond-hole-saws",
+                        "name": "Diamond Core Bits",
+                        "zh_name": "金刚石/玻璃开孔器 (打瓷砖/大理石)",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "id": "c2-woodworking-drills",
+                "name": "Woodworking Drill Bits",
+                "zh_name": "木工专用钻头 (家庭DIY与木工厂)",
+                "children": [
+                    {
+                        "id": "c3-brad-point-drills",
+                        "name": "Brad Point Drill Bits",
+                        "zh_name": "木工三尖钻 (定位准，边缘不劈裂)",
+                        "children": []
+                    },
+                    {
+                        "id": "c3-auger-bits",
+                        "name": "Wood Auger Bits",
+                        "zh_name": "支罗钻 / 沙拉钻 (钻木头深孔)",
+                        "children": []
+                    },
+                    {
+                        "id": "c3-forstner-bits",
+                        "name": "Forstner Bits",
+                        "zh_name": "木工开孔器 / 铰链钻 (打平底浅孔，装柜门用)",
+                        "children": []
+                    }
+                ]
             }
         ]
     },
@@ -204,45 +304,6 @@
         ]
     },
     {
-        "id": "c1-tool-holders-accessories",
-        "name": "Tool Holders & Accessories",
-        "zh_name": "刀柄与附件",
-        "children": [
-            {
-                "id": "c2-cnc-tool-holders",
-                "name": "CNC Tool Holders",
-                "zh_name": "数控刀柄 (连接机床主轴和刀具)",
-                "children": [
-                    {
-                        "id": "c3-bt-sk-hsk-holders",
-                        "name": "BT / SK / HSK Tool Holders",
-                        "zh_name": "BT / SK / HSK 标准刀柄",
-                        "children": []
-                    },
-                    {
-                        "id": "c3-collet-chucks",
-                        "name": "Collet Chucks",
-                        "zh_name": "夹头刀柄 (配合筒夹使用)",
-                        "children": []
-                    }
-                ]
-            },
-            {
-                "id": "c2-collets-accessories",
-                "name": "Collets & Accessories",
-                "zh_name": "筒夹与附件",
-                "children": [
-                    {
-                        "id": "c3-er-collets",
-                        "name": "ER Collets",
-                        "zh_name": "ER 筒夹 (最常用的弹性夹头)",
-                        "children": []
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "id": "c1-threading-tools",
         "name": "Threading Tools",
         "zh_name": "螺纹刀具 (攻丝与挑丝)",
@@ -300,6 +361,45 @@
                         "id": "c3-round-dies",
                         "name": "Round Threading Dies",
                         "zh_name": "圆板牙",
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "c1-tool-holders-accessories",
+        "name": "Tool Holders & Accessories",
+        "zh_name": "刀柄与附件",
+        "children": [
+            {
+                "id": "c2-cnc-tool-holders",
+                "name": "CNC Tool Holders",
+                "zh_name": "数控刀柄 (连接机床主轴和刀具)",
+                "children": [
+                    {
+                        "id": "c3-bt-sk-hsk-holders",
+                        "name": "BT / SK / HSK Tool Holders",
+                        "zh_name": "BT / SK / HSK 标准刀柄",
+                        "children": []
+                    },
+                    {
+                        "id": "c3-collet-chucks",
+                        "name": "Collet Chucks",
+                        "zh_name": "夹头刀柄 (配合筒夹使用)",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "id": "c2-collets-accessories",
+                "name": "Collets & Accessories",
+                "zh_name": "筒夹与附件",
+                "children": [
+                    {
+                        "id": "c3-er-collets",
+                        "name": "ER Collets",
+                        "zh_name": "ER 筒夹 (最常用的弹性夹头)",
                         "children": []
                     }
                 ]
